@@ -21,12 +21,18 @@
           <!-- In practice, it is likely that only a code from one reference set will be carried. -->
           <coding>
             <!-- From PBCL observable entity reference set -->
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-reference">
+                <valueUri value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyBoundedCodeListObservables" />
+            </extension>
             <system value="http://snomed.info/sct" />
             <code value="1022541000000102" />
             <display value="Total white cell count" />
           </coding>
           <coding>
             <!-- From PaLM observable entity reference set -->
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-reference">
+                <valueUri value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineObservables" />
+            </extension>
             <system value="http://snomed.info/sct" />
             <code value="1110441000000100" />
             <display value="White blood cell count in blood" />
@@ -91,6 +97,12 @@
         <code>
           <coding>
             <!-- From PBCL and PaLM observable entity reference sets -->
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-reference">
+                <valueUri value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyBoundedCodeListObservables" />
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-reference">
+                <valueUri value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineObservables" />
+            </extension>
             <system value="http://snomed.info/sct" />
             <code value="1022451000000103" />
             <display value="Red blood cell count" />

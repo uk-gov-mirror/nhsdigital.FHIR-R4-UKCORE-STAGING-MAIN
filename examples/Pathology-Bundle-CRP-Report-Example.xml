@@ -304,6 +304,9 @@
             <display value="Serum CRP (C reactive protein) level" />
           </coding>
           <coding>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-reference">
+              <valueUri value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineObservables" />
+            </extension>
             <!-- From PaLM observable entity reference set -->
             <system value="http://snomed.info/sct" />
             <code value="1106741000000105" />

@@ -1,9 +1,5 @@
 <Bundle xmlns="http://hl7.org/fhir">
   <id value="Pathology-Bundle-CRP-Report-Example" />
-  <meta>
-    <lastUpdated value="2022-03-08T12:09:00+00:00" />
-    <profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Bundle" />
-  </meta>
   <identifier>
     <system value="https://tools.ietf.org/html/rfc4122" />
     <value value="1f859037-2942-4117-884a-f51b62db5a52" />

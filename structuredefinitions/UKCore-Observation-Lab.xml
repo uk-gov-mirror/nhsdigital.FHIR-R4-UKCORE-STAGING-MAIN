@@ -44,12 +44,20 @@
         <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.bodyStructure" />
       </type>
     </element>
-    <element id="Observation.extension:extensionUKCoreObservationTriggeredBy">
+    <element id="Observation.extension:ObservationTriggeredBy">
       <path value="Observation.extension" />
-      <sliceName value="extensionUKCoreObservationTriggeredBy" />
+      <sliceName value="ObservationTriggeredBy" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy" />
+      </type>
+    </element>
+    <element id="Observation.extension:ObservationOrganizer">
+      <path value="Observation.extension" />
+      <sliceName value="ObservationOrganizer" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/6.0/StructureDefinition/extension-Observation.organizer" />
       </type>
     </element>
     <element id="Observation.status">

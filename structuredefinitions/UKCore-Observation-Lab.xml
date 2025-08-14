@@ -129,7 +129,7 @@
       <slicing>
         <discriminator>
           <type value="value" />
-          <path value="code" />
+          <path value="extension('http://hl7.org/fhir/StructureDefinition/valueset-reference').valueCanonical" />
         </discriminator>
         <description value="Slicing for Pathology to differentiate between the 2 SNOMED CT ValueSets, PaLM and PCBL" />
         <rules value="open" />

@@ -124,12 +124,23 @@
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineObservables" />
       </binding>
     </element>
+        <element id="Observation.code.coding.extension:valueset-reference">
+      <path value="Observation.code.coding.extension" />
+      <sliceName value="valueset-reference" />
+      <short value="A logical reference (e.g. a reference to ValueSet.url) that identifies the value set/version
+   that identifies the set of possible coded values this coding was chosen from or constrained
+   by." />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/valueset-reference" />
+      </type>
+    </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <slicing>
         <discriminator>
           <type value="value" />
-          <path value="extension('http://hl7.org/fhir/StructureDefinition/valueset-reference').valueCanonical" />
+          <path value="extension('http://hl7.org/fhir/StructureDefinition/valueset-reference').valueUri" />
         </discriminator>
         <description value="Slicing for Pathology to differentiate between the 2 SNOMED CT ValueSets, PaLM and PCBL" />
         <rules value="open" />

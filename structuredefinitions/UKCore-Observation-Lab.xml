@@ -108,8 +108,8 @@
       <path value="Observation.code.coding" />
       <slicing>
         <discriminator>
-          <type value="type" />
-          <path value="$this" />
+          <type value="value" />
+          <path value="extension.value" />
         </discriminator>
         <description value="Slicing for Pathology to differentiate between the 2 SNOMED CT ValueSets, PaLM and PCBL" />
         <rules value="open" />

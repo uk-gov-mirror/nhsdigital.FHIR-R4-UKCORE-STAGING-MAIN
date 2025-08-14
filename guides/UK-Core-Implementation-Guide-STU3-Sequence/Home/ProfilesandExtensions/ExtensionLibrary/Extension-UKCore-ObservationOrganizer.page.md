@@ -1,8 +1,8 @@
-
 ---
 subject: http://hl7.org/fhir/6.0/StructureDefinition/extension-Observation.organizer
 issue: Extension-UKCore-ObservationOrganizer
 ---
+
 ## StructureDefinition {{variable:issue}}
 
 <table id="addToTranspose">

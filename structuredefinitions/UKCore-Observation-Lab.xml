@@ -109,7 +109,7 @@
       <slicing>
         <discriminator>
           <type value="value" />
-          <path value="extension.value[x]" />
+          <path value="extension.valueUri" />
         </discriminator>
         <description value="Slicing for Pathology to differentiate between the 2 SNOMED CT ValueSets, PaLM and PCBL" />
         <rules value="open" />

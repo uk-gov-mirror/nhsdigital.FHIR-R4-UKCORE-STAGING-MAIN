@@ -1,11 +1,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="UKCore-Observation-Lab" />
   <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation-Lab" />
-  <version value="2.1.0" />
+  <version value="2.2.0" />
   <name value="UKCoreObservationLab" />
   <title value="UK Core Observation Lab" />
   <status value="active" />
-  <date value="2025-06-24" />
+  <date value="2025-08-14" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -35,42 +35,6 @@
         <expression value="value.exists() or dataAbsentReason.exists() or note.exists()" />
       </constraint>
     </element>
-    <element id="Observation.extension:triggeredByR5">
-      <path value="Observation.extension" />
-      <sliceName value="triggeredByR5" />
-      <short value="Triggering observation(s). This is a R5 backport." />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy" />
-      </type>
-    </element>
-    <element id="Observation.extension:triggeredByR5.extension:observation">
-      <path value="Observation.extension.extension" />
-      <sliceName value="observation" />
-    </element>
-    <element id="Observation.extension:triggeredByR5.extension:observation.value[x]">
-      <path value="Observation.extension.extension.value[x]" />
-      <short value="Triggering observation." />
-      <definition value="A reference to the triggering observation." />
-    </element>
-    <element id="Observation.extension:triggeredByR5.extension:type">
-      <path value="Observation.extension.extension" />
-      <sliceName value="type" />
-    </element>
-    <element id="Observation.extension:triggeredByR5.extension:type.value[x]">
-      <path value="Observation.extension.extension.value[x]" />
-      <short value="The type of trigger. Reflex | Repeat | Re-run" />
-      <definition value="The type of trigger. Reflex | Repeat | Re-run" />
-    </element>
-    <element id="Observation.extension:triggeredByR5.extension:reason">
-      <path value="Observation.extension.extension" />
-      <sliceName value="reason" />
-    </element>
-    <element id="Observation.extension:triggeredByR5.extension:reason.value[x]">
-      <path value="Observation.extension.extension.value[x]" />
-      <short value="Reason that the observation was triggered." />
-      <definition value="Provides the reason why this observation was performed as a result of the observation referenced." />
-    </element>
     <element id="Observation.extension:bodyStructureR5">
       <path value="Observation.extension" />
       <sliceName value="bodyStructureR5" />
@@ -78,6 +42,22 @@
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.bodyStructure" />
+      </type>
+    </element>
+    <element id="Observation.extension:ObservationTriggeredBy">
+      <path value="Observation.extension" />
+      <sliceName value="ObservationTriggeredBy" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy" />
+      </type>
+    </element>
+    <element id="Observation.extension:ObservationOrganizer">
+      <path value="Observation.extension" />
+      <sliceName value="ObservationOrganizer" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/6.0/StructureDefinition/extension-Observation.organizer" />
       </type>
     </element>
     <element id="Observation.status">
@@ -128,8 +108,8 @@
       <path value="Observation.code.coding" />
       <slicing>
         <discriminator>
-          <type value="type" />
-          <path value="$this" />
+          <type value="value" />
+          <path value="$this.extension('http://hl7.org/fhir/StructureDefinition/valueset-reference').valueUri" />
         </discriminator>
         <description value="Slicing for Pathology to differentiate between the 2 SNOMED CT ValueSets, PaLM and PCBL" />
         <rules value="open" />
@@ -143,7 +123,7 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/valueset-reference" />
       </type>
     </element>
-        <element id="Observation.code.coding:pathology-PaLM-Procedures">
+    <element id="Observation.code.coding:pathology-PaLM-Procedures">
       <path value="Observation.code.coding" />
       <sliceName value="pathology-PaLM-Procedures" />
       <binding>
@@ -152,7 +132,7 @@
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineProcedures" />
       </binding>
     </element>
-    <element id="Observation.code.coding:pathology-PaLM-Observations">
+    <element id="Observation.code.coding:pathology-PaLM">
       <path value="Observation.code.coding" />
       <sliceName value="pathology-PaLM" />
       <binding>
@@ -161,7 +141,7 @@
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineObservables" />
       </binding>
     </element>
-    <element id="Observation.code.coding:pathology-PBCL-Obsevations">
+    <element id="Observation.code.coding:pathology-PBCL">
       <path value="Observation.code.coding" />
       <sliceName value="pathology-PBCL" />
       <binding>

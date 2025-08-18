@@ -107,10 +107,6 @@
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="extension.valueUri" />
-        </discriminator>
         <description value="Slicing for Pathology to differentiate between the 2 SNOMED CT ValueSets, PaLM and PCBL" />
         <rules value="open" />
       </slicing>
@@ -129,6 +125,14 @@
       <binding>
         <strength value="extensible" />
         <description value="This slice is to denote the code comes from the Pathology and laboratory medicine Procedure entity simple reference set. This ValueSet is to be used if this Observation Profile is being used as a grouper for Pathology observables" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineProcedures" />
+      </binding>
+    </element>
+    <element id="Observation.code.coding:pathology-PaLM-Procedures.extension">
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueset-reference" />
+      <path value="Observation.code.coding.extension" />
+      <binding>
+        <strength value="extensible" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineProcedures" />
       </binding>
     </element>

@@ -128,14 +128,6 @@
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineProcedures" />
       </binding>
     </element>
-    <element id="Observation.code.coding:pathology-PaLM-Procedures.extension">
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueset-reference" />
-      <path value="Observation.code.coding.extension" />
-      <binding>
-        <strength value="extensible" />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineProcedures" />
-      </binding>
-    </element>
     <element id="Observation.code.coding:pathology-PaLM">
       <path value="Observation.code.coding" />
       <sliceName value="pathology-PaLM" />

@@ -1,0 +1,26 @@
+<Dosage xmlns="http://hl7.org/fhir">
+    <maxDosagePerPeriod>
+        <valueRatio>
+            <numerator>
+                <value value="10" />
+                <unit value="mg" />
+            </numerator>
+            <denominator>
+                <value value="2" />
+                <unit value="hour" />
+            </denominator>
+        </valueRatio>
+    </maxDosagePerPeriod>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage.maxDosePerPeriod">
+        <valueRatio>
+            <numerator>
+                <value value="20" />
+                <unit value="mg" />
+            </numerator>
+            <denominator>
+                <value value="1" />
+                <unit value="day" />
+            </denominator>
+        </valueRatio>
+    </extension>
+</Dosage>

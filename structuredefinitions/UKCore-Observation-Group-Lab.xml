@@ -4,8 +4,8 @@
   <version value="2.1.0" />
   <name value="UKCoreObservationGroupLab" />
   <title value="UK Core Observation Group Lab" />
-  <status value="active" />
-  <date value="2024-11-20" />
+  <status value="retired" />
+  <date value="2025-08-14" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />

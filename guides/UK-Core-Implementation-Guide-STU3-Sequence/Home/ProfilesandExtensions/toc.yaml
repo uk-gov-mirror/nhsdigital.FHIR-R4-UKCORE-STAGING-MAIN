@@ -1,10 +1,11 @@
 - name: Index
   filename: Index
-- name: Extensions Index
-  filename: Extensions-Index
 - name: Profiles Index
   filename: Profiles-Index.page.md
-
+- name: Extensions Index
+  filename: Extensions-Index
+- name: ExtensionLibrary
+  filename: ExtensionLibrary
 - name: UKCore-AllergyIntolerance
   filename: UKCore-AllergyIntolerance
 - name: UKCore-Appointment

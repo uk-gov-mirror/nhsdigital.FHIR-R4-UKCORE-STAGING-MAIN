@@ -7,17 +7,13 @@ usage: http://hl7.org/fhir/StructureDefinition/Device
 
 
 
-<nocheck>
+<nospellcheck>
+
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>Electronic Sphygmomanometer</b> - An example to illustrate recording of a specific blood pressure device.<br/>
-{{pagelink:UKCore-Device-Sphygmomanometer-Example}}<br><br>
-<b>Cuff Size</b> - An example to illustrate recording of a cuff size used on a blood pressure device.<br/>
-{{pagelink:Extension-UKCore-CuffSize-Example}}<br><br>
-</div>
-</nocheck>
+</nospellcheck>
+
 
 
 <div id="ProfileGuidance">

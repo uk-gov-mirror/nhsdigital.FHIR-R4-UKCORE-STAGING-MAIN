@@ -5,20 +5,18 @@ usage: http://hl7.org/fhir/StructureDefinition/Observation
 ---
 
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>Pipe Smoker</b> - An example to illustrate recording a patient who smokes a pipe.<br/>
-{{pagelink:UKCore-Observation-PipeSmoker-Example}}<br><br>
-</div>
-</nocheck>
+</nospellcheck>
+
 
 
 <div id="ProfileGuidance">
 
 ### Example Usage Scenarios ###
+
 The following are example usage scenarios for the UK Core Observation Tobacco Consumption profile:
 
 - Query and retrieve a patient's tobacco usage, including type and amount

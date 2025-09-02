@@ -5,15 +5,11 @@ usage: http://hl7.org/fhir/StructureDefinition/Observation
 ---
 
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>Responds to Voice</b> - An example to illustrate recording a patients level of consiousness.<br/>
-{{pagelink:UKCore-Observation-PatientConsciousness-Example}}<br><br>
-</div>
-</nocheck>
+</nospellcheck>
 
 
 <div id="ProfileGuidance">

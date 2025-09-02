@@ -14,6 +14,7 @@ def import_IG():
     ig_folder = variables['ig_folder']
     username = os.getenv("simplifier_username")
     password = os.getenv("simplifier_password")
+    print("Downloading IG from Simplifier...")
     
     response = requests.get(ig_url, auth=(username, password))
 
@@ -34,7 +35,7 @@ def import_IG():
     else:
         print(f"Failed to download ZIP: {response.status_code} - {response.text}")
         sys.exit(1)
-
+    print(f"IG imported successfully to {ig_folder}")
     return ig_folder
 
 def list_ig_pages(path):

@@ -4,19 +4,17 @@ subject: https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure
 usage: http://hl7.org/fhir/StructureDefinition/Procedure
 ---
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-  <b>Skin Examination</b>- An example to illustrate a procedure of skin examination.<br>
-{{pagelink:UKCore-Procedure-ExaminationOfSkin-Example}}
-</div>
-</nocheck>
+</nospellcheck>
+
 
 <div id="ProfileGuidance">
 
 ### Example Usage Scenarios ###
+
 The following are example usage scenarios for the UK Core Procedure profile:
 
 - Query for procedures performed on a Patient

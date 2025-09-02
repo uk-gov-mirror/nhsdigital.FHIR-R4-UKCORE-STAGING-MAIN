@@ -141,7 +141,7 @@ if __name__ == "__main__":
                 examples.append(asset)
                 continue
             
-            if asset.status != 'active':
+            if asset.status == 'retired':
                 continue
             
             if 'extension' in asset_url:

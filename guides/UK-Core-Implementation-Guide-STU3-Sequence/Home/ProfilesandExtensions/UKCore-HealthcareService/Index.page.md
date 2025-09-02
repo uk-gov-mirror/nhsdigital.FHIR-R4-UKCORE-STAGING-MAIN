@@ -4,15 +4,11 @@ subject: https://fhir.hl7.org.uk/StructureDefinition/UKCore-HealthcareService
 usage: http://hl7.org/fhir/StructureDefinition/HealthcareService
 ---
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>Orthopaedic Service</b> - An example to illustrate information about an orthopaedic service within a HealthcareService resource. <br>
-{{pagelink:UKCore-HealthcareService-OrthopaedicService-Example}}
-</div>
-</nocheck>
+</nospellcheck>
 
 
 <div id="ProfileGuidance">

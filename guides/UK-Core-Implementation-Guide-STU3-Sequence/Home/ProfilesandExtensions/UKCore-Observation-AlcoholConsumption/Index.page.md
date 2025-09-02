@@ -5,20 +5,18 @@ usage: http://hl7.org/fhir/StructureDefinition/Observation
 ---
 
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>Heavy Drinker</b> - An example to illustrate the alcohol consumption of a heavy drinker.<br/>
-{{pagelink:UKCore-Observation-HeavyDrinker-Example}}<br><br>
-</div>
-</nocheck>
+</nospellcheck>
+
 
 
 <div id="ProfileGuidance">
 
 ### Example Usage Scenarios 
+
 The following are example usage scenarios for the UK Core Observation Alcohol Consumption profile:
 
 - Query and retrieve a patient's alcohol consumption

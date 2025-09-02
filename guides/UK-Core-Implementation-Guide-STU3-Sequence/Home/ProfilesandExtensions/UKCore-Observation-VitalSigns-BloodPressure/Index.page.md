@@ -5,20 +5,18 @@ usage: http://hl7.org/fhir/StructureDefinition/Observation
 ---
 
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>Blood Pressure</b> - An example to illustrate recording a high blood pressure.<br/>
-{{pagelink:UKCore-Observation-VitalSigns-BloodPressure-Example}}<br><br>
-</div>
-</nocheck>
+</nospellcheck>
+
 
 
 <div id="ProfileGuidance">
 
 ### Example Usage Scenarios ###
+
 The following are example usage scenarios for the UK Core Observation Vital Signs Blood Pressure profile:
 
 - Query and retrieve a patient's blood pressure readings

@@ -1,13 +1,10 @@
 ---
 topic: Home-ContactUs
 ---
-## Home 
 
----
+# Contact Us
 
-## Contact Us
-
-If you have any questions, need further information or wish to provide feedback on the FHIR UK Core STU3 sequence, or the implementation guide for C&TA Sprint 7, please e-mail the appropriate organisation below:
+If you have any questions, need further information or wish to provide feedback on the FHIR UK Core STU3 sequence please log an issue using the [Simplifier HL7 FHIR® UK Core R4 Issues portal](https://simplifier.net/HL7FHIRUKCoreR4/~issues) or e-mail the appropriate organisation below:
 
 <table title="Organisation Contact List" class="assets">
 <tr>

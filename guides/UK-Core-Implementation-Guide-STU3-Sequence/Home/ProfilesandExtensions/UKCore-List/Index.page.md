@@ -5,22 +5,12 @@ usage: http://hl7.org/fhir/StructureDefinition/List
 ---
 # StructureDefinition-UKCore-List
 
+<nospellcheck>
+
 {{page:ProfileTemplate}}
 
-<nocheck>
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-  <b>Empty List</b> - This example shows the use of an empty List to indicate that there is no content. This is not supposed to represent actual system behaviour.
-  <br>{{pagelink:UKCore-List-EmptyList-Example}}
-  <br><br>
-  <b>Bundled Allergy List</b> - This example is an example FHIR Bundle that could be returned following a query for the allergies for a patient. Note: the use of List and Bundle is not mandated and is used to illustrate a possible use of the List Profile and is not expected system behaviour.<br>
-  {{pagelink:UKCore-Bundle-AllergyList-Example}}
-  <br><br>
-  <b>List Warning Code</b> - An example to illustrate a warning being provided in a List resource.<br>
-  {{pagelink:Extension-UKCore-ListWarningCode-Example}}
-  <br><br>
-</div>
-</nocheck>
+</nospellcheck>
+
 
 <div id="ProfileGuidance">
 

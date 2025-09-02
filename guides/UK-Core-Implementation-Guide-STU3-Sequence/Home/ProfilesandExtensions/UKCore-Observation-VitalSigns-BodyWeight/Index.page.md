@@ -5,15 +5,12 @@ usage: http://hl7.org/fhir/StructureDefinition/Observation
 ---
 
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>Body Weight</b> - An example to illustrate recordings a patients weight.<br/>
-{{pagelink:UKCore-Observation-VitalSigns-BodyWeight-Example}}<br><br>
-</div>
-</nocheck>
+</nospellcheck>
+
 
 
 <div id="ProfileGuidance">

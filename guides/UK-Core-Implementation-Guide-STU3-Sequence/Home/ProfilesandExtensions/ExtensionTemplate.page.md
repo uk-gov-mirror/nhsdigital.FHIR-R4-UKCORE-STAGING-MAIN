@@ -50,7 +50,7 @@ select
 </div>
 <div id="examples" class="tabcontent">
   <h3>Examples</h3>
-{{page:ExampleLinksFQL}}
+{{page:ExampleLinksFQL-Extensions}}
 </div>
 
 <div id="Feedback" class="tabcontent">

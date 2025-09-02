@@ -4,17 +4,12 @@ subject: https://fhir.hl7.org.uk/StructureDefinition/UKCore-Slot
 usage: http://hl7.org/fhir/StructureDefinition/Slot
 ---
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-  <b>Available Walk In Visit</b> - An example to illustrate a slot regarding a walk in visit.
-  <br>
-  {{pagelink:UKCore-Slot-AvailableWalkInVisit-Example}}
-  <br><br>
-</div>
-</nocheck>
+</nospellcheck>
+
 
 <div id="ProfileGuidance">
 

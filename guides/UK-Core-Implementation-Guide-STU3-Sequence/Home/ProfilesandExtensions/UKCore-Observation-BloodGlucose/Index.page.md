@@ -5,26 +5,24 @@ usage: http://hl7.org/fhir/StructureDefinition/Observation
 ---
 
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>Fasting Test</b> - An example to illustrate recording the blood glucose level following a period of fasting.<br/>
-{{pagelink:UKCore-Observation-FastingTest-Example}}<br><br>
-</div>
-</nocheck>
+</nospellcheck>
 
 
 <div id="ProfileGuidance">
 
 ### Example Usage Scenarios ###
+
 The following are example usage scenarios for the UK Core Observation Blood Glucose profile:
 
 - Query and retrieve a patient's results of blood glucose tests
 - Record or update a patient's blood glucose levels
 
 #### Example for Continuous Glucose Monitoring
+
 A continuous or flash glucose monitor will have an Observation resource created for each individual reading. All readings can be retrieved by searching on the `Observation.subject` and `Observation.device`.
 
 {{render:CGM}}

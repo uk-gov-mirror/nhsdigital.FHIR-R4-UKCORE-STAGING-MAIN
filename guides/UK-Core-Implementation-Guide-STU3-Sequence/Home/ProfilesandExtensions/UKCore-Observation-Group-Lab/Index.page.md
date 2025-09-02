@@ -5,15 +5,12 @@ usage: http://hl7.org/fhir/StructureDefinition/Observation
 ---
 
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>Full Blood count</b> - An example to illustrate a full blood count using multiple lab observation references.<br/>
-{{pagelink:UKCore-Observation-Group-FullBloodCount-Example}}
-</div>
-</nocheck>
+</nospellcheck>
+
 
 
 <div id="ProfileGuidance">

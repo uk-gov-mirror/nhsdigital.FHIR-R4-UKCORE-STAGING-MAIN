@@ -5,15 +5,12 @@ usage: http://hl7.org/fhir/StructureDefinition/MedicationAdministration
 ---
 # StructureDefinition-UKCore-MedicationAdministration
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-  <b>Timoptol Eye Drops</b> - An example to illustrate a medication administration of eye drops.<br>
- {{pagelink:UKCore-MedicationAdministration-TimoptolEyeDrops-Example}}
-</div>
-</nocheck>
+<nospellcheck>
+
 
 
 <div id="ProfileGuidance">

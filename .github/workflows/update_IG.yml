@@ -1,0 +1,41 @@
+name: Update IG Pages
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *' # Daily at 6 AM UTC
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  simplifier_username: ${{ secrets.SIMPLIFIER_USERNAME }}
+  simplifier_password: ${{ secrets.SIMPLIFIER_PASSWORD }}
+  pr_branch: automated/ig-update
+
+jobs:
+  update_IG:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: develop  
+
+      - name: Install dependencies
+        run: pip install python-dotenv
+
+      - name: Run update script
+        run: python -u .github/python_scripts/update_IG.py
+
+      - name: Create or update PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.SIMPLIFIER_PAT }}
+          branch: ${{ env.pr_branch }}
+          base: develop
+          title: "Automated Update from Simplifier"
+          body: "This PR includes the latest daily changes from Simplifier."
+          commit-message: "Automated update from Simplifier"
+          sign-commits: true

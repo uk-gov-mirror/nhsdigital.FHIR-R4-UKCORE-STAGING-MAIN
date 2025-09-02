@@ -5,20 +5,18 @@ usage: http://hl7.org/fhir/StructureDefinition/Observation
 ---
 
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>Head Circumference</b> - An example to illustrate recording the measurement of a patients head circumference.<br/>
-{{pagelink:UKCore-Observation-VitalSigns-HeadCircumference-Example}}<br><br>
-</div>
-</nocheck>
+</nospellcheck>
+
 
 
 <div id="ProfileGuidance">
 
 ### Example Usage Scenarios 
+
 The following are example usage scenarios for the UK Core Observation Vital Signs Head Circumference profile:
 
 - Query and retrieve a patient's head measurement

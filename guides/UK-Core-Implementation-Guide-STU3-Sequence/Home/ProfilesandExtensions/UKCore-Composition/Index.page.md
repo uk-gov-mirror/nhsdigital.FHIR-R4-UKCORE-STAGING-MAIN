@@ -5,18 +5,13 @@ usage: http://hl7.org/fhir/StructureDefinition/Composition
 ---
 
 
-<nocheck>
+<nospellcheck>
+
+
 {{page:ProfileTemplate}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-  <b>Discharge</b> - An example to illustrate a composition containing a discharge summary.<br/>
-{{pagelink:UKCore-Composition-Discharge-Example}}
-<br/><br/>
-<b>CareSetting Type</b> - An example to illustrate the care setting of a FHIR document.<br/>
-{{pagelink:Extension-UKCore-CareSettingType-Example}}
-</div>
-</nocheck>
+</nospellcheck>
+
 
 
 <div id="ProfileGuidance">

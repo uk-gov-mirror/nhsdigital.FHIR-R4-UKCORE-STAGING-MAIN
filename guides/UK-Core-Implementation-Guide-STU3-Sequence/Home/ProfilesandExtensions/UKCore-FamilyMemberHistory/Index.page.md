@@ -4,21 +4,12 @@ subject: https://fhir.hl7.org.uk/StructureDefinition/UKCore-FamilyMemberHistory
 usage: http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory
 ---
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-  <b>Associated Encounter</b> - An example to illustrate using the extension to indicate the encounter for which the family members condition was recorded.<br>
-{{pagelink:Extension-UKCore-AssociatedEncounter-Example}}
-  <br><br>
-  <b>Father with Diabetes</b> - An example to illustrate the the use of FamilyMemberHistory to record a father with diabetes.
-  <br>{{pagelink:UKCore-FamilyMemberHistory-FatherDiabetes-Example}}
-  <br><br>
-  <b>Participant Reference</b> - An example to illustrate the pre-adopted R5 element via an extension, which is used to indicate the performer of the family member history related activity.<br>
-  {{pagelink:Extension-UKCore-Participant-Example}}
-</div>
-</nocheck>
+</nospellcheck>
+
 
 <div id="ProfileGuidance">
 

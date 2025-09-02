@@ -8,3 +8,5 @@
   filename: FHIR-Version-Guidance
 - name: MustSupport Guidance
   filename: MustSupport-Guidance
+- name: Lifecycle
+  filename: Lifecycle

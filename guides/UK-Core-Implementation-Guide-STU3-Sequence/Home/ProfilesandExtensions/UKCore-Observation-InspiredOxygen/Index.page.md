@@ -5,22 +5,17 @@ usage: http://hl7.org/fhir/StructureDefinition/Observation
 ---
 
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>Breathing Normally</b> - An example to illustrate a patient breathing room air.<br/>
-{{pagelink:UKCore-Observation-BreathingNormally-Example}}<br><br>
-<b>Using Oxygen Therapy</b> - An example to illustrate a patient on supplemental oxygen.<br/>
-{{pagelink:UKCore-Observation-OxygenTherapy-Example}}<br><br>
-</div>
-</nocheck>
+</nospellcheck>
 
 
 <div id="ProfileGuidance">
 
 ### Example Usage Scenarios ###
+
 The following are example usage scenarios for the UK Core Observation Inspired Oxygen profile:
 
 - Query and retrieve a patient's breathing status

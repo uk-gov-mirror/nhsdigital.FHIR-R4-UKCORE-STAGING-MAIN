@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="UKCore-Device-BloodPressure" />
   <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Device-BloodPressure" />
-  <version value="1.0.0" />
+  <version value="1.0.1" />
   <name value="UKCoreDeviceBloodPressure" />
   <title value="UK Core Device Blood Pressure" />
   <status value="active" />
-  <date value="2023-09-12" />
+  <date value="2025-08-01" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -24,7 +24,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Device" />
-  <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Device" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Device" />
   <derivation value="constraint" />
   <differential>
     <element id="Device.extension:cuffSize">

@@ -5,20 +5,18 @@ usage: http://hl7.org/fhir/StructureDefinition/Observation
 ---
 
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>24 hour monitoring</b> - An example to illustrate recording the average blood pressure over 24 hours.<br/>
-{{pagelink:UKCore-Observation-24HourBloodPressure-Example}}<br><br>
-</div>
-</nocheck>
+</nospellcheck>
+
 
 
 <div id="ProfileGuidance">
 
 ### Example Usage Scenarios ###
+
 The following are example usage scenarios for the UK Core Observation Average Blood Pressure profile:
 
 - Query and retrieve a patient's average blood pressure over a specific time period

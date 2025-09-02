@@ -5,19 +5,15 @@ usage: http://hl7.org/fhir/StructureDefinition/Observation
 ---
 
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>NEWS2 Bundle</b> - An example to illustrate a full bundle of National Early Warning Score (NEWS) 2 observations, sub scores, and total score.<br/>
-{{pagelink:UKCore-Bundle-NEWS2Observations-Example}}<br><br>
-<b>NPEWS Total</b> - An example to illustrate a National Paediatric Early Warning System (NPEWS) total score.<br/>
-{{pagelink:UKCore-Observation-NPEWSTotal-Example}}<br><br>
-</div>
-</nocheck>
+</nospellcheck>
+
 
 ### Example Usage Scenarios ###
+
 The following are example usage scenarios for the UK Core Observation Early Warning Total Score profile:
 
 - Query and retrieve a patient's Early Warning Score

@@ -5,20 +5,18 @@ usage: http://hl7.org/fhir/StructureDefinition/Observation
 ---
 
 
-<nocheck>
+<nospellcheck>
+
 {{page:ProfileTemplate_new}}
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>Body Mass Index</b> - An example to illustrate recording a obese body mass index.<br/>
-{{pagelink:UKCore-Observation-VitalSigns-BMI-Example}}<br><br>
-</div>
-</nocheck>
+</nospellcheck>
+
 
 <div id="ProfileGuidance">
 
 
 ### Example Usage Scenarios ###
+
 The following are example usage scenarios for the UK Core Observation Vital Signs BMI profile:
 
 - Query and retrieve a patient's body mass index

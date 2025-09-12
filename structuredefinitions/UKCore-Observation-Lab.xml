@@ -128,7 +128,7 @@
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineProcedures" />
       </binding>
     </element>
-    <element id="Observation.code.coding.extension:reference">
+    <element id="Observation.code.coding.extension:reference-PaLm-Procedures">
       <path value="Observation.code.coding.extension" />
       <sliceName value="reference" />
       <type>
@@ -149,12 +149,12 @@
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineObservables" />
       </binding>
     </element>
-    <element id="Observation.code.coding.extension:reference">
+    <element id="Observation.code.coding.extension:reference-PaLM">
       <path value="Observation.code.coding.extension" />
       <sliceName value="reference" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/valueset-reference" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/valueset-reference-PBCL" />
       </type>
     </element>
     <element id="Observation.code.coding:pathology-PBCL">

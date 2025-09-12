@@ -166,7 +166,7 @@
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyBoundedCodeListObservables" />
       </binding>
     </element>
-    <element id="Observation.code.coding.extension:reference">
+    <element id="Observation.code.coding.extension:reference-PBCL">
       <path value="Observation.code.coding.extension" />
       <sliceName value="reference" />
       <type>

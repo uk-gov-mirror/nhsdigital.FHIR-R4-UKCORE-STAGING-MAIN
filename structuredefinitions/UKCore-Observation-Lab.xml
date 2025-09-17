@@ -99,9 +99,8 @@
       <short value="The type of lab related observation (code / type)." />
       <mustSupport value="true" />
       <binding>
-        <strength value="preferred" />
+        <strength value="example" />
         <description value="A code from the SNOMED Clinical Terminology UK coding system regarding laboratory medicine test results" />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineObservables" />
       </binding>
     </element>
     <element id="Observation.code.coding">

@@ -99,9 +99,8 @@
       <short value="The type of lab related observation (code / type)." />
       <mustSupport value="true" />
       <binding>
-        <strength value="preferred" />
+        <strength value="example" />
         <description value="A code from the SNOMED Clinical Terminology UK coding system regarding laboratory medicine test results" />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineObservables" />
       </binding>
     </element>
     <element id="Observation.code.coding">
@@ -128,6 +127,18 @@
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineProcedures" />
       </binding>
     </element>
+    <element id="Observation.code.coding:pathology-PaLM-Procedures.extension:reference-palm-procedures">
+      <path value="Observation.code.coding.extension" />
+      <sliceName value="reference-palm-procedures" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/valueset-reference" />
+      </type>
+    </element>
+    <element id="Observation.code.coding:pathology-PaLM-Procedures.extension:reference-palm-procedures.value[x]">
+      <path value="Observation.code.coding.extension.value[x]" />
+      <fixedUri value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineProcedures" />
+    </element>
     <element id="Observation.code.coding:pathology-PaLM">
       <path value="Observation.code.coding" />
       <sliceName value="pathology-PaLM" />
@@ -137,6 +148,18 @@
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineObservables" />
       </binding>
     </element>
+    <element id="Observation.code.coding:pathology-PaLM.extension:reference-palm-observables">
+      <path value="Observation.code.coding.extension" />
+      <sliceName value="reference-palm-observables" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/valueset-reference" />
+      </type>
+    </element>
+    <element id="Observation.code.coding:pathology-PaLM.extension:reference-palm-observables.value[x]">
+      <path value="Observation.code.coding.extension.value[x]" />
+      <fixedUri value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineObservables" />
+    </element>
     <element id="Observation.code.coding:pathology-PBCL">
       <path value="Observation.code.coding" />
       <sliceName value="pathology-PBCL" />
@@ -145,6 +168,18 @@
         <description value="This slice is to denote the code comes from the Pathology Bounded Code List observables simple reference set" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyBoundedCodeListObservables" />
       </binding>
+    </element>
+    <element id="Observation.code.coding:pathology-PBCL.extension:reference-pbcl-observables">
+      <path value="Observation.code.coding.extension" />
+      <sliceName value="reference-pbcl-observables" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/valueset-reference" />
+      </type>
+    </element>
+    <element id="Observation.code.coding:pathology-PBCL.extension:reference-pbcl-observables.value[x]">
+      <path value="Observation.code.coding.extension.value[x]" />
+      <fixedUri value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyBoundedCodeListObservables" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />

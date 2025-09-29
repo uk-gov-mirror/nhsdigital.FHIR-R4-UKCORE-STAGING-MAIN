@@ -1,13 +1,7 @@
 ---
 subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AdditionalContact
 ---
-## StructureDefinition {{variable:issue}}
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-ServiceRequest,text:ServiceRequest}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate_new}}
 

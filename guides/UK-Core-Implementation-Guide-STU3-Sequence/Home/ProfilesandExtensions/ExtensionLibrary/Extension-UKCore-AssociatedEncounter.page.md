@@ -1,13 +1,7 @@
 ---
 subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AssociatedEncounter
 ---
-## StructureDefinition {{variable:issue}}
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-FamilyMemberHistory,text:FamilyMemberHistory}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate_new}}
 

@@ -1,13 +1,7 @@
 ---
 subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-AdmissionMethod
 ---
-## StructureDefinition {{variable:issue}}
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-Encounter,text:Encounter.hospitalization}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate}}
 

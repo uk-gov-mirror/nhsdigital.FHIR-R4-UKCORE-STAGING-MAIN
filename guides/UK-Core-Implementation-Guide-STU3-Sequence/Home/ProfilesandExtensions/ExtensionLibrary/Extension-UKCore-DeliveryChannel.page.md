@@ -1,14 +1,7 @@
 ---
 subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-DeliveryChannel
 ---
-## StructureDefinition {{variable:issue}}
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-Appointment,text:Appointment}}<br/>
-{{pagelink:UKCore-Slot,text:Slot}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate_new}}
 

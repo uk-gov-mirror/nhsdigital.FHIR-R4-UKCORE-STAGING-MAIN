@@ -3,11 +3,6 @@ subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-Medication
 ---
 ## StructureDefinition Extension-UKCore-MedicationStatementLastIssueDate
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-MedicationStatement,text:MedicationStatement}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate}}
 

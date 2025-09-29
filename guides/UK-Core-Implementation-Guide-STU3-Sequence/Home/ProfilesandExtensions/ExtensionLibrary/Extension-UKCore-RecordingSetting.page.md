@@ -1,13 +1,7 @@
 ---
 subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-RecordingSetting
 ---
-## StructureDefinition {{variable:issue}}
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-Observation-VitalSigns}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate_new}}
 

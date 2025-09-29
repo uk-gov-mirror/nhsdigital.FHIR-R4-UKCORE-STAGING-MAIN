@@ -32,7 +32,6 @@ jobs:
       - name: Create or update PR
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.SIMPLIFIER_PAT }}
           branch: ${{ env.pr_branch }}
           base: develop
           title: "Automated Update from Simplifier"

@@ -1,18 +1,14 @@
+
 <fql>
 from
-  Example
-where 
-  extension.url = %subject
+	Example
+where
+	%context.descendants().extension.where(url=%subject).exists()
 select
-  id, text.div
+	id, text.div
 </fql>
 
-<!--
-from
-	Example
-where descendants().where(extension.url='%subject')
-select extension.url
--->
+
 
 <script>
 $(document).ready(function () {

@@ -1,4 +1,3 @@
-
 - name: Extension-UKCore-AdditionalContact
   filename: Extension-UKCore-AdditionalContact.page.md
 - name: Extension-UKCore-AddressKey
@@ -77,6 +76,8 @@
   filename: Extension-UKCore-NHSNumberVerificationStatus.page.md
 - name: Extension-UKCore-ObservationBodyStructure
   filename: Extension-UKCore-ObservationBodyStructure.page.md
+  - name: Extension-UKCore-ObservationOrganizer
+  filename: Extension-UKCore-ObservationOrganizer.page.md
 - name: Extension-UKCore-ObservationTriggeredBy
   filename: Extension-UKCore-ObservationTriggeredBy.page.md
 - name: Extension-UKCore-OtherContactSystem

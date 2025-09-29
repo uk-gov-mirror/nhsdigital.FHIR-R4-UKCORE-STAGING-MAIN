@@ -1,3 +1,11 @@
+<fql output="inline" delimiter=" ">
+from StructureDefinition
+where url= %subject
+select
+  text[markdown]: '# '+
+  title
+</fql>
+
 <fql>
 from
 	StructureDefinition
@@ -9,8 +17,10 @@ select
   Current_Version: version,
   Last_Updated: date,
 	Description: description,
-	Profile_Purpose: purpose
-  with header 
+	Profile_Purpose: purpose,
+  'Context of Use': context.expression
+  with header
+
   
 </fql>
 

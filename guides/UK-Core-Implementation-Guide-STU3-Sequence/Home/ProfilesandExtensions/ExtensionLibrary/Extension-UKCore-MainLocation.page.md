@@ -1,13 +1,7 @@
 ---
 subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MainLocation
 ---
-## StructureDefinition {{variable:issue}}
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-Organization,text:Organization}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate}}
 

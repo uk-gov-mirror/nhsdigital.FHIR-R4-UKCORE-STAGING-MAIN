@@ -1,13 +1,7 @@
 ---
 subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-CuffSize
 ---
-## StructureDefinition {{variable:issue}}
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-Device-BloodPressure,text:Device}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate_new}}
 

@@ -1,14 +1,7 @@
 ---
 subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-DeviceReference
 ---
-## StructureDefinition {{variable:issue}}
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-DiagnosticReport,text:DiagnosticReport.performer}}<br>
-{{pagelink:UKCore-DiagnosticReport,text:DiagnosticReport.resultsInterpreter}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate_new}}
 

@@ -1,13 +1,7 @@
 ---
 subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ListWarningCode
 ---
-## StructureDefinition {{variable:issue}}
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-List,text:List}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate_new}}
 

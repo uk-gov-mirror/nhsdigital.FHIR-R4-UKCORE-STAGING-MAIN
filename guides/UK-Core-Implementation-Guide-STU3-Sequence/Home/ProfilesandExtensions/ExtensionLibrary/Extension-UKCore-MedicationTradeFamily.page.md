@@ -3,11 +3,6 @@ subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-Medication
 ---
 ## StructureDefinition Extension-UKCore-MedicationTradeFamily
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-Medication,text:Medication}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate}}
 

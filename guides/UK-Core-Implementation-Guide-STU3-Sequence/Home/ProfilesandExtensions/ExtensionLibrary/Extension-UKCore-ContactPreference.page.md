@@ -1,14 +1,7 @@
 ---
 subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ContactPreference
 ---
-## StructureDefinition {{variable:issue}}
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-RelatedPerson,text:RelatedPerson}}<br/>
-{{pagelink:UKCore-Patient,text:Patient}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate}}
 

@@ -1,13 +1,7 @@
 ---
 subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus
 ---
-## StructureDefinition {{variable:issue}}
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-Patient,text:Patient.identifier}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate}}
 

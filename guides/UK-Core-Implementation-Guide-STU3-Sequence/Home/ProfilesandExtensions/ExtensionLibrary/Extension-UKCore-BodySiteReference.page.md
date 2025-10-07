@@ -1,13 +1,7 @@
 ---
 subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-BodySiteReference
 ---
-## StructureDefinition {{variable:issue}}
 
-<table id="addToTranspose">
-<tr><td>Context of Use</td>
-<td>{{pagelink:UKCore-Specimen,text:Specimen.collection.bodySite}}</td>
-</tr>
-</table>
 
 {{page:ExtensionTemplate_new}}
 

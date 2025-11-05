@@ -70,14 +70,6 @@
       <min value="1" />
       <max value="2" />
     </element>
-    <element id="Observation.component.code">
-      <path value="Observation.component.code" />
-      <binding>
-        <strength value="preferred" />
-        <description value="A code from the SNOMED Clinical Terminology UK coding system describing a type of vital sign." />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-ObservationVitalSignsType" />
-      </binding>
-    </element>
     <element id="Observation.component:SystolicBP">
       <path value="Observation.component" />
       <sliceName value="SystolicBP" />

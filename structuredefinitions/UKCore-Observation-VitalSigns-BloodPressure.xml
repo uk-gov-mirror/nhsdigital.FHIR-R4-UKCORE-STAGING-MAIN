@@ -27,19 +27,11 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation-VitalSigns" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.code.coding:loinc">
+    <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
-      <sliceName value="loinc" />
-    </element>
-    <element id="Observation.code.coding:loinc.code">
-      <path value="Observation.code.coding.code" />
-      <fixedCode value="85354-9" />
-    </element>
-    <element id="Observation.code.coding:snomedCT">
-      <path value="Observation.code.coding" />
-      <sliceName value="snomedCT" />
       <binding>
         <strength value="preferred" />
+        <description value="A code from the SNOMED Clinical Terminology UK coding system describing a type of observation" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BloodPressure" />
       </binding>
     </element>
@@ -132,32 +124,6 @@
     </element>
     <element id="Observation.component:SystolicBP.code.coding">
       <path value="Observation.component.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Observation.component:SystolicBP.code.coding:loinc">
-      <path value="Observation.component.code.coding" />
-      <sliceName value="loinc" />
-      <min value="1" />
-      <max value="1" />
-    </element>
-    <element id="Observation.component:SystolicBP.code.coding:loinc.code">
-      <path value="Observation.component.code.coding.code" />
-      <fixedCode value="8480-6" />
-    </element>
-    <element id="Observation.component:SystolicBP.code.coding:loinc.display">
-      <path value="Observation.component.code.coding.display" />
-      <fixedString value="Systolic blood pressure" />
-    </element>
-    <element id="Observation.component:SystolicBP.code.coding:snomedCT">
-      <path value="Observation.component.code.coding" />
-      <sliceName value="snomedCT" />
-      <min value="1" />
       <binding>
         <strength value="preferred" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BloodPressure-Systolic" />
@@ -193,32 +159,6 @@
     </element>
     <element id="Observation.component:DiastolicBP.code.coding">
       <path value="Observation.component.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Observation.component:DiastolicBP.code.coding:loinc">
-      <path value="Observation.component.code.coding" />
-      <sliceName value="loinc" />
-      <min value="1" />
-      <max value="1" />
-    </element>
-    <element id="Observation.component:DiastolicBP.code.coding:loinc.code">
-      <path value="Observation.component.code.coding.code" />
-      <fixedCode value="8462-4" />
-    </element>
-    <element id="Observation.component:DiastolicBP.code.coding:loinc.display">
-      <path value="Observation.component.code.coding.display" />
-      <fixedString value="Diastolic blood pressure" />
-    </element>
-    <element id="Observation.component:DiastolicBP.code.coding:snomedCT">
-      <path value="Observation.component.code.coding" />
-      <sliceName value="snomedCT" />
-      <min value="1" />
       <binding>
         <strength value="preferred" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BloodPressure-Diastolic" />

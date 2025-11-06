@@ -27,11 +27,10 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation-VitalSigns" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.code.coding">
-      <path value="Observation.code.coding" />
+    <element id="Observation.code">
+      <path value="Observation.code" />
       <binding>
         <strength value="preferred" />
-        <description value="A code from the SNOMED Clinical Terminology UK coding system describing a type of observation" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BloodPressure" />
       </binding>
     </element>
@@ -76,16 +75,12 @@
       <min value="1" />
       <max value="1" />
     </element>
-    <element id="Observation.component:SystolicBP.code.coding">
-      <path value="Observation.component.code.coding" />
+    <element id="Observation.component:SystolicBP.code">
+      <path value="Observation.component.code" />
       <binding>
         <strength value="preferred" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BloodPressure-Systolic" />
       </binding>
-    </element>
-    <element id="Observation.component:SystolicBP.code.text">
-      <path value="Observation.component.code.text" />
-      <fixedString value="Systolic blood pressure" />
     </element>
     <element id="Observation.component:SystolicBP.value[x]">
       <path value="Observation.component.value[x]" />
@@ -111,16 +106,12 @@
       <sliceName value="DiastolicBP" />
       <max value="1" />
     </element>
-    <element id="Observation.component:DiastolicBP.code.coding">
-      <path value="Observation.component.code.coding" />
+    <element id="Observation.component:DiastolicBP.code">
+      <path value="Observation.component.code" />
       <binding>
         <strength value="preferred" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BloodPressure-Diastolic" />
       </binding>
-    </element>
-    <element id="Observation.component:DiastolicBP.code.text">
-      <path value="Observation.component.code.text" />
-      <fixedString value="Diastolic blood pressure" />
     </element>
     <element id="Observation.component:DiastolicBP.value[x]">
       <path value="Observation.component.value[x]" />

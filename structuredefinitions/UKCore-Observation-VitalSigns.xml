@@ -82,9 +82,6 @@
     <element id="Observation.code">
       <path value="Observation.code" />
       <short value="The type of vital signs observation (code / type)." />
-    </element>
-    <element id="Observation.code.coding">
-      <path value="Observation.code.coding" />
       <binding>
         <strength value="preferred" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-ObservationVitalSignsType" />

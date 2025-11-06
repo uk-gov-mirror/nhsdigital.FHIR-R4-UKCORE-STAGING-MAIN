@@ -11,7 +11,6 @@ def import_IG():
     load_dotenv()
     variables = openJSONFile('.github/python_scripts/variables.json')
     ig_url = variables['ig_url']
-    ig_folder = variables['ig_folder']
     username = os.getenv("simplifier_username")
     password = os.getenv("simplifier_password")
     print("Downloading IG from Simplifier...")
@@ -19,19 +18,18 @@ def import_IG():
     response = requests.get(ig_url, auth=(username, password))
 
     if response.status_code == 200:
-    # Open the ZIP file in memory
+        # Open the ZIP file in memory
         with ZipFile(BytesIO(response.content)) as zfile:
-            ig_files = [
+            # Get all files inside the 'guides/' folder
+            guide_files = [
                 f for f in zfile.namelist()
-                if f.startswith(ig_folder)
+                if f.startswith("guides/")
             ]
-
-            if ig_files:
-                zfile.extractall(members=ig_files)
+            if guide_files:
+                zfile.extractall(members=guide_files)
             else:
-                print(f"IG Folder '{ig_folder}' not found in the ZIP file.")
+                print("No 'guides' folder found in the ZIP file.")
                 sys.exit(1)
-
     else:
         print(f"Failed to download ZIP: {response.status_code} - {response.text}")
         sys.exit(1)

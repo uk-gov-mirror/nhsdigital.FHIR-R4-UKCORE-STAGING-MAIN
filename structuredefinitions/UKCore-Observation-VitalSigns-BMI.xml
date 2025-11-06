@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="UKCore-Observation-VitalSigns-BMI" />
   <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation-VitalSigns-BMI" />
-  <version value="1.0.0" />
+  <version value="0.1.1" />
   <name value="UKCoreObservationVitalSignsBMI" />
   <title value="UK Core Observation Vital Signs BMI" />
-  <status value="active" />
-  <date value="2024-07-11" />
+  <status value="draft" />
+  <date value="2025-11-06" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -33,10 +33,6 @@
         <strength value="preferred" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BMI" />
       </binding>
-    </element>
-    <element id="Observation.code.coding:snomedCT">
-      <path value="Observation.code.coding" />
-      <sliceName value="snomedCT" />
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />

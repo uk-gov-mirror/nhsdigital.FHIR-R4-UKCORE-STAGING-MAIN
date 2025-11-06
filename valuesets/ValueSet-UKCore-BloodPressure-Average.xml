@@ -1,10 +1,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="UKCore-BloodPressure-Average" />
   <url value="https://fhir.hl7.org.uk/ValueSet/UKCore-BloodPressure-Average" />
-  <version value="1.1.0" />
+  <version value="0.2.0" />
   <name value="UKCoreBloodPressureAverage" />
   <title value="UK Core Blood Pressure Average" />
-  <status value="active" />
+  <status value="draft" />
   <date value="2025-03-31" />
   <publisher value="HL7 UK" />
   <contact>

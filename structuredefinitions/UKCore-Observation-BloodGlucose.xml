@@ -2,10 +2,10 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="UKCore-Observation-BloodGlucose" />
   <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation-BloodGlucose" />
-  <version value="1.0.0" />
+  <version value="0.1.0" />
   <name value="UKCoreObservationBloodGlucose" />
   <title value="UK Core Observation Blood Glucose" />
-  <status value="active" />
+  <status value="draft" />
   <date value="2023-12-12" />
   <publisher value="HL7 UK" />
   <contact>

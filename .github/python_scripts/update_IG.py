@@ -33,7 +33,7 @@ def import_IG():
     else:
         print(f"Failed to download ZIP: {response.status_code} - {response.text}")
         sys.exit(1)
-    print(f"IG imported successfully to {ig_folder}")
+    print(f"IG imported successfully")
     return ig_folder
 
 def list_ig_pages(path):

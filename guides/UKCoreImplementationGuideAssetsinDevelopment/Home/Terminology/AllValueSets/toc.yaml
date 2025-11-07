@@ -1,0 +1,16 @@
+- name: ValueSet UKCore-ConsentException
+  filename: ValueSet-UKCore-ConsentException.page.md
+- name: ValueSet UKCore-DateTimeType
+  filename: ValueSet-UKCore-DateTimeType.page.md
+- name: ValueSet UKCore-DeviceType
+  filename: ValueSet-UKCore-DeviceType.page.md
+- name: ValueSet UKCore-DocumentType
+  filename: ValueSet-UKCore-DocumentType.page.md
+- name: ValueSet UKCore-MessageEvent
+  filename: ValueSet-UKCore-MessageEvent.page.md
+- name: ValueSet UKCore-OperationOutcomeIssueDetails
+  filename: ValueSet-UKCore-OperationOutcomeIssueDetails.page.md
+- name: ValueSet UKCore-PeriodType
+  filename: ValueSet-UKCore-PeriodType.page.md
+- name: ValueSet UKCore-QuestionnaireQuestionCodes
+  filename: ValueSet-UKCore-QuestionnaireQuestionCodes.page.md

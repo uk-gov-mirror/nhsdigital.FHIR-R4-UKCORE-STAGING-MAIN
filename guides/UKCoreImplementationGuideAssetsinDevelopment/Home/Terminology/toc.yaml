@@ -1,0 +1,6 @@
+- name: ValueSets and CodeSystems (draft)
+  filename: ValueSets-and-CodeSystems-draft.guide.md
+- name: All ValueSets
+  filename: AllValueSets
+- name: All CodeSystems
+  filename: AllCodeSystems

@@ -1,0 +1,32 @@
+---
+topic: UKCore-PractitionerRole
+subject: https://fhir.hl7.org.uk/StructureDefinition/UKCore-PractitionerRole
+usage: http://hl7.org/fhir/StructureDefinition/PractitionerRole
+---
+
+<nospellcheck>
+
+{{page:ProfileTemplate}}
+
+</nospellcheck>
+
+
+<div id="ProfileGuidance">
+
+### Example Usage Scenarios ###
+
+The following are example usage scenarios for the UK Core PractitionerRole profile:
+
+- Query for a Practitioner role using the query parameter identifier `PractitionerRole.identifier` for a known SDS Role Id.
+- Query for a Practitioner using query parameters such as specialty `PractitionerRole.specialty` for a known specialty.
+- Exchange Practitioner role information within a FHIR document or message.
+
+<hr class="thickline">
+
+## Profile Specific Implementation Guidance: ##
+
+{{page:ProfileMustSupportTemplate}}
+
+</div>
+
+---

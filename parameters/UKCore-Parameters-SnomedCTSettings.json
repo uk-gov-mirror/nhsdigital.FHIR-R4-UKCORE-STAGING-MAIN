@@ -1,0 +1,8 @@
+{
+  "resourceType" : "Parameters",
+  "id" : "UKCore-Parameters-SnomedCTSettings",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/83821000000107"
+  }]
+}

@@ -3,3 +3,4 @@ description: Version history and development sequences for the UK Core
 version: 1.0.0
 style-root: project
 style-name: UkCoreVH
+numbered-headings: false

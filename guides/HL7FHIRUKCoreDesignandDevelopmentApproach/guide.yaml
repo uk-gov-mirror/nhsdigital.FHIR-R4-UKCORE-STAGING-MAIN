@@ -1,6 +1,6 @@
 title: HL7 FHIR® UK Core Design and Development Approach
 description: A guide outlining the design and development approach adopted for the UK Core.
-version: 3.0.0
+version: 4.0.0
 style-root: project
 style-name: DesignAndDevelopmentApproach
 numbered-headings: false

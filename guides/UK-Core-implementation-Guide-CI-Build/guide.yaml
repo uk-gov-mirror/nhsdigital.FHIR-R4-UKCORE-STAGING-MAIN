@@ -1,0 +1,6 @@
+title: UK Core implementation Guide CI-Build
+description: Development build of the UK Core
+version: 0.10.0
+style-root: project
+style-name: HL7UKCore
+numbered-headings: false

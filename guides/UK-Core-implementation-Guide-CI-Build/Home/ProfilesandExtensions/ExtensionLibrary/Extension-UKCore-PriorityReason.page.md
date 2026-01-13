@@ -1,0 +1,22 @@
+---
+subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-PriorityReason
+---
+
+
+{{page:ExtensionTemplate_new}}
+
+<div id="Examples" class="tabcontent">
+  <h3>Examples</h3>
+  <b>Priority Reason</b> - An example to illustrate the priority reason extension, using a SNOMED CT concept, for a service request marked as urgent.<br>
+{{pagelink:Extension-UKCore-PriorityReason-Example}}
+<br><br>
+  <b>Priority Reason</b> - An example to illustrate the priority reason extension, using a plain text reason, for a service request marked as urgent.<br>
+{{pagelink:Extension-UKCore-PriorityReason-SendingAsText-Example}}
+<br><br>
+</div>
+
+<h3 id="guidance-priorityreason">Extension Specific Guidance</h3>
+
+There is a binding within this extension to a {{pagelink:ValueSet-UKCore-ServiceRequestReasonCode}}.
+
+---

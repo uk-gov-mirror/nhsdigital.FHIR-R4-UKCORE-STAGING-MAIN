@@ -1,0 +1,19 @@
+---
+subject: https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationPrescribingOrganizationType
+---
+
+
+{{page:ExtensionTemplate}}
+
+<div id="Examples" class="tabcontent">
+  <h3>Examples</h3>
+  <b>Prescribing Organisation</b>- An example to illustrate the type of organisation or setting responsible for authorising and issuing a medication, but not the organisation or setting delivering the patient care.<br>
+  {{pagelink:Extension-UKCore-MedicationPrescribingOrganizationType-Example}}
+  <br><br>
+</div>
+
+<h3 id="guidance-medicationprescribingorganizationtype">Extension Specific Guidance</h3>
+
+There is a binding within this extension to a {{pagelink:ValueSet-UKCore-MedicationPrescribingOrganizationType}}.
+
+---

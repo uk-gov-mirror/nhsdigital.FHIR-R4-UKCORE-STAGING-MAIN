@@ -18,7 +18,7 @@
 </tr>
 <tr>
 <td width="30%">Scope: </td>
-<td>Proposed In Scope</td>
+<td>Confirmed In Scope</td>
 </tr>
 </table>
 <br>

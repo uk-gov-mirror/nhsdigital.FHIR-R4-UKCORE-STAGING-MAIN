@@ -45,7 +45,7 @@ Ian McNicoll:
 <li>Asked whether international consensus is forming on panel modelling.</li>
 </ul>
 </td>
-<td>Proposed In Scope - Development Done</td>
+<td>Confirmed In Scope - Development Done</td> 
 </tr>
 <tr>
 <td>{{pagelink:Issue-2}}</td>
@@ -83,7 +83,7 @@ Charlie McCay:<br />
 <li>Suggested also tracking proposed HL7 International changes arising from UK findings.</li>
 </ul>
 </td>
-<td>Proposed Out of Scope</td>
+<td>Confirmed Out of Scope</td>
 </tr>
 <tr>
 <td>{{pagelink:Issue-3}}</td>
@@ -116,7 +116,7 @@ Ryan May:
 <li>Clarified the ballot status was draft, not balloted (corrected himself).</li>
 </ul>
 </td>
-<td>Proposed Out of Scope</td>
+<td>Confirmed Out of Scope</td>
 </tr>
 <tr>
 <td>{{pagelink:Issue-4}}</td>
@@ -136,7 +136,7 @@ Kevin Sprague:
 <li>It’s a process change reversing prior agreement; needs broader governance (HL7 UK / FIRE Board).</li>
 </ul>
 </td>
-<td>Proposed Out of Scope</td>
+<td>Confirmed Out of Scope</td>
 </tr>
 <tr>
 <td>{{pagelink:Issue-5}}</td>
@@ -176,7 +176,7 @@ Ryan May:
 <li>HL7 UK working group will address this; must get it right the first time.</li>
 </ul>
 </td>
-<td>Proposed In Scope - Development Done</td>
+<td>Confirmed In Scope - Development Done</td>
 </tr>
 <tr>
 <td>{{pagelink:Issue-6}}</td>
@@ -210,7 +210,7 @@ Ann Wrightson:
 <li>Ask for direct, clear proposal sentence (“Retire the resource”) at the top, with rationale below.</li>
 </ul>
 </td>
-<td>Proposed In Scope</td>
+<td>Confirmed In Scope</td>
 </tr>
 <tr>
 <td>{{pagelink:Issue-7}}</td>
@@ -227,7 +227,7 @@ Propose discussing how and where the patient's sex is described.
 <br /><br />
 No main points raised.
 </td>
-<td>Proposed Out of Scope</td>
+<td>Confirmed Out of Scope</td>
 </tr>
 <tr>
 <td>{{pagelink:Issue-8}}</td>
@@ -265,7 +265,7 @@ Andrew Perry:
 <li>Pressed that imminent implementations should raise priority; advocated a roadmap to address pressing issues.</li>
 </ul>
 </td>
-<td>Proposed Out of Scope</td>
+<td>Confirmed Out of Scope</td>
 </tr>
 <tr>
 <td>{{pagelink:Issue-9}}</td>
@@ -301,7 +301,7 @@ Ryan May:
 <li>Context: the need was to send a non preferred term text alongside the conceptId; past misuse included sending descriptionIds as codes.</li>
 </ul>
 </td>
-<td>Proposed In Scope</td>
+<td>Confirmed In Scope</td>
 </tr>
 <tr>
 <td>{{pagelink:Issue-10}}</td>
@@ -324,7 +324,7 @@ Ryan May:
 <li>Confirmed: Read code should be its own coding entry; don’t use the SCT descriptionId extension to carry non SNOMED codes; simplify example.</li>
 </ul>
 </td> 
-<td>Proposed In Scope</td>
+<td>Confirmed In Scope</td>
 </tr>
 <!-- <tr>
 <td>{{pagelink:Issue-11}}</td>
@@ -342,7 +342,7 @@ Ryan May:
 <td>UK Core Development Team</td>
 <td>Some Resources not showing in correct category in dropdown</td>
 <td>Propose removing the banner and sticking to the index page only to find profiles.</td>
-<td>Proposed In Scope - Development Done</td>
+<td>Confirmed In Scope - Development Done</td>
 </tr> -->
 <tr>
 <td>{{pagelink:Issue-13}}</td>
@@ -363,7 +363,7 @@ Kevin Sprague:
 </ul>
 </td>
 <td>
-Proposed Out of Scope
+Confirmed Out of Scope
 </td>
 </tr>
 <!-- <tr>
@@ -373,7 +373,7 @@ Proposed Out of Scope
 <td><a href="https://simplifier.net/hl7fhirukcorer4/ukcore-encounter/~issues/3303" target="_blank">Simplifier Issue</a></td>
 <td>Inconsistency between mapping and external specifications.</td>
 <td>No proposal stated.</td>
-<td>Proposed Out of Scope</td>
+<td>Confirmed Out of Scope</td>
 </tr> -->
 <!-- <tr>
 <td>{{pagelink:Issue-15}}</td>
@@ -382,7 +382,7 @@ Proposed Out of Scope
 <td><a href="https://simplifier.net/hl7fhirukcorer4/ukcore-encounter/~issues/3302" target="_blank">Simplifier Issue</a></td>
 <td>The binding is currently to https://simplifier.net/hl7fhirukcorer4/valueset-ukcore-dischargedestination.</td>
 <td>Should be bound to hospitalization.destination</td>
-<td>Proposed In Scope</td>
+<td>Confirmed In Scope</td>
 </tr> -->
 <tr>
 <td>{{pagelink:Issue-16}}</td>
@@ -403,7 +403,7 @@ Kevin Sprague:
 <li>Binding strength likely preferred (advisory, not enforced); this improves guidance without mandating.</li>
 </ul>
 </td>
-<td>Proposed In Scope</td>
+<td>Confirmed In Scope</td>
 </tr>
 <tr>
 <td>{{pagelink:Issue-17}}</td>
@@ -450,7 +450,7 @@ Kanthan Theivendran:
 <li>Clinically: ward/GP “BP” ≠ ICU pressures; e.g., RAP reflects diastolic—mismatch under current systolic value set.</li>
 </ul>
 </td>
-<td>Proposed In Scope</td>
+<td>Confirmed In Scope</td>
 </tr>
 <tr>
 <td>{{pagelink:Issue-18}}</td>
@@ -478,7 +478,7 @@ Kevin Sprague:
 <li>Treat 17 & 18 together; align with existing work (Ian’s).</li>
 </ul>
 </td>
-<td>Proposed In Scope</td>
+<td>Confirmed In Scope</td>
 </tr>
 <tr>
 <td>{{pagelink:Issue-19}}</td>
@@ -499,7 +499,7 @@ Kevin Sprague:
 <li>Will fall out naturally once BP scoping is corrected.</li>
 </ul>
 </td>
-<td>Proposed In Scope</td>
+<td>Confirmed In Scope</td>
 </tr>
 <!-- <tr>
 <td>{{pagelink:Issue-20}}</td>
@@ -541,7 +541,7 @@ Kevin Sprague:
 <ul>
 <li>Illustrates why out of scope: needs proper multi party terminology session; add to roadmap.</li>
 </td>
-<td>Proposed Out of Scope</td>
+<td>Confirmed Out of Scope</td>
 </tr>
 <tr>
 <td>{{pagelink:Issue-22}}</td>
@@ -586,6 +586,6 @@ Kevin Sprague:
 <li>Agreed: update description; consider additional artefacts but avoid burdening implementers.</li>
 </ul>
 </td>
-<td>Proposed In Scope</td>
+<td>Confirmed In Scope</td>
 </tr>
 </table> 

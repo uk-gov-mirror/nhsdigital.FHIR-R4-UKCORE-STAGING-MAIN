@@ -2,10 +2,10 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="UKCore-Observation-InspiredOxygen" />
   <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation-InspiredOxygen" />
-  <version value="1.0.0" />
+  <version value="0.1.0" />
   <name value="UKCoreObservationInspiredOxygen" />
   <title value="UK Core Observation Inspired Oxygen" />
-  <status value="active" />
+  <status value="draft" />
   <date value="2023-12-12" />
   <publisher value="HL7 UK" />
   <contact>

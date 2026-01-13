@@ -1,10 +1,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="UKCore-BloodGlucose" />
   <url value="https://fhir.hl7.org.uk/ValueSet/UKCore-BloodGlucose" />
-  <version value="1.0.1" />
+  <version value="0.1.1" />
   <name value="UKCoreBloodGlucose" />
   <title value="UK Core Blood Glucose" />
-  <status value="active" />
+  <status value="draft" />
   <date value="2025-03-05" />
   <publisher value="HL7 UK" />
   <contact>

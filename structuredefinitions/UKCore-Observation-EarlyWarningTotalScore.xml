@@ -2,10 +2,10 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="UKCore-Observation-EarlyWarningTotalScore" />
   <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation-EarlyWarningTotalScore" />
-  <version value="1.0.0" />
+  <version value="0.1.0" />
   <name value="UKCoreObservationEarlyWarningTotalScore" />
   <title value="UK Core Observation Early Warning Total Score" />
-  <status value="active" />
+  <status value="draft" />
   <date value="2023-12-12" />
   <publisher value="HL7 UK" />
   <contact>

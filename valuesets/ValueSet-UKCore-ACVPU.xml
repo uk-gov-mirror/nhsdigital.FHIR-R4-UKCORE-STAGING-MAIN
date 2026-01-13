@@ -1,10 +1,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="UKCore-ACVPU" />
   <url value="https://fhir.hl7.org.uk/ValueSet/UKCore-ACVPU" />
-  <version value="2.1.1" />
+  <version value="0.2.0" />
   <name value="UKCoreACVPU" />
   <title value="UK Core ACVPU" />
-  <status value="active" />
+  <status value="draft" />
   <date value="2025-03-05" />
   <publisher value="HL7 UK" />
   <contact>

@@ -1,4 +1,4 @@
-# {{page-title}}
+## {{page-title}}
 
 <div id="newAsset" markdown="span" class="alert alert-success" role="alert"><h4><i class="fa fa-star"></i> New Addition</h4>
 The UK Core follows the HL7 publication-status value set.
@@ -17,3 +17,7 @@ The UK Core follows the HL7 publication-status value set.
 
 - Feedback is encouraged on all assets, particularly those in draft status, to support their progression to a stable release. See ways to {{pagelink:Home/ContactUs.page.md}}
 </div>
+
+
+<br>
+<br>

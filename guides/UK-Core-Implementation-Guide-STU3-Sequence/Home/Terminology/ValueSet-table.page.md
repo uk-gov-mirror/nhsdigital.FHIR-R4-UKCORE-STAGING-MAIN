@@ -13,31 +13,30 @@ distinct
 <script>
 $(document).ready(function () {
     const queryString = window.location.search || "?version=current";
-
-    // Detect if we're in an unpublished guide (which uses .page.md links)
     const isUnpublished = window.location.search.includes("version=current");
     const pageSuffix = isUnpublished ? ".page.md" : "";
 
     // Convert {{guide-title}} into URL-safe form
     const guideTitleUrl = "{{guide-title}}"
-        .replace(/[^a-zA-Z0-9 ]/g, "")   // remove special characters
-        .replace(/\s+/g, "-");           // convert spaces to hyphens
+        .replace(/[^a-zA-Z0-9 ]/g, "")
+        .replace(/\s+/g, "-");
 
     const baseUrl = `https://simplifier.net/guide/${guideTitleUrl}/Home/`;
     const vsBase = `${baseUrl}terminology/valuesets/valueset-`;
     const csBase = `${baseUrl}terminology/codesystems/codesystem-`;
 
+    // Target the specific table rendered by FQL
     const $table = $("table.table-bordered");
     if ($table.length === 0) return;
 
-    // Update header
+    // 1. Fix Headers
     const $headerCells = $table.find("thead tr th");
     if ($headerCells.length >= 4) {
         $headerCells.eq(2).text("Composed of");
-        $headerCells.eq(3).remove(); // remove 4th column (valueSet)
+        $headerCells.eq(3).hide(); // Hide the redundant 4th column
     }
 
-    // Process each row
+    // 2. Process Rows
     $table.find("tbody tr").each(function () {
         const $cells = $(this).find("td");
         if ($cells.length < 4) return;
@@ -47,59 +46,55 @@ $(document).ready(function () {
         const $systemTd = $cells.eq(2);
         const $valueSetTd = $cells.eq(3);
 
-        // --- Linkify name column if UKCore ---
+        // --- Linkify the ValueSet Name (Column 1) ---
         const nameText = $nameTd.text().trim();
-        if (nameText.startsWith("UKCore")) {
+        if (nameText.toLowerCase().includes("ukcore")) {
             const assetLower = nameText.toLowerCase();
             const href = `${vsBase}${assetLower}${pageSuffix}${queryString}`;
             $nameTd.html(`<a href="${href}">${nameText}</a>`);
         }
 
-        // --- Merge & linkify systems and valueSets ---
-        const combinedLinks = [];
+        // --- Handle the "Composed of" logic (Columns 3 and 4) ---
+        let combinedLinks = [];
 
-        const linkify = (text) => {
-            text.split(";").forEach(item => {
+        // Helper to extract URLs from comma-separated text in cells
+        const extractAndLink = ($td) => {
+            const rawText = $td.text().trim();
+            if (!rawText) return;
+
+            // SPLIT BY COMMA is the fix for Simplifier FQL output
+            rawText.split(",").forEach(item => {
                 const trimmed = item.trim();
                 if (!trimmed) return;
 
-                let displayText = trimmed;
                 let href = trimmed;
+                let displayText = trimmed;
 
-                if (trimmed.startsWith("https://fhir.hl7.org.uk/")) {
+                // Check if it's a UK Core URL that needs internal mapping
+                if (trimmed.includes("fhir.hl7.org.uk")) {
                     const parts = trimmed.split("/");
-                    const assetType = parts[3];
-                    const assetName = parts[4];
+                    const assetType = parts[3] ? parts[3].toLowerCase() : "";
+                    const assetName = parts[4] ? parts[4].toLowerCase() : "";
 
-                    if (assetType && assetName) {
-                        const section = assetType.toLowerCase() === "codesystem" ? csBase
-                                     : assetType.toLowerCase() === "valueset"   ? vsBase
-                                     : null;
-
-                        if (section) {
-                            const lowerAsset = assetName.toLowerCase();
-                            href = `${section}${lowerAsset}${pageSuffix}${queryString}`;
-                        }
+                    if (assetType === "codesystem") {
+                        href = `${csBase}${assetName.toLowerCase()}${pageSuffix}${queryString}`;
+                    } else if (assetType === "valueset") {
+                        href = `${vsBase}${assetName.toLowerCase()}${pageSuffix}${queryString}`;
                     }
                 }
-
+                
                 combinedLinks.push(`<a href="${href}">${displayText}</a>`);
             });
         };
 
-        linkify($systemTd.text());
-        linkify($valueSetTd.text());
+        extractAndLink($systemTd);
+        extractAndLink($valueSetTd);
 
-        // Remove duplicates (based on text shown)
-        const uniqueLinks = Array.from(
-            new Map(combinedLinks.map(link => {
-                const textMatch = link.match(/>(.*?)</);
-                return textMatch ? [textMatch[1], link] : null;
-            }).filter(Boolean))
-        ).map(pair => pair[1]);
-
+        // Remove duplicates and join with line breaks
+        const uniqueLinks = [...new Set(combinedLinks)];
+        
         $systemTd.html(uniqueLinks.join("<br>"));
-        $valueSetTd.remove(); // cleanup 4th column
+        $valueSetTd.hide(); // Hide the extra column we merged
     });
 });
 </script>

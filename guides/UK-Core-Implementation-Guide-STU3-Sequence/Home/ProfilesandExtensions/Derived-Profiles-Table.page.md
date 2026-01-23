@@ -2,9 +2,9 @@
 from
 	StructureDefinition
 where
-	kind = 'resource' and status = 'active' and id.length() - id.replaceMatches('-', '').length() > 1 
+	kind = 'resource' and (status = 'active' or status = 'draft') and (id.length() - id.replaceMatches('-', '').length() > 1) 
 select
-	Profile:id, status
+	Profile:id, Status:status
 with
-  no header
+  header
 </fql>

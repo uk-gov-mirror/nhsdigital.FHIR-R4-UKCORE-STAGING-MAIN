@@ -4,7 +4,7 @@ from
 where
 	kind = 'resource' and status = 'active' and id.length() - id.replaceMatches('-', '').length() = 1 
 select
-	Profile:id, Purpose:purpose, status, Resource:type
+	Profile:id, Purpose:purpose, Status:status, Resource:type
 with
-  no header
+  header
 </fql>

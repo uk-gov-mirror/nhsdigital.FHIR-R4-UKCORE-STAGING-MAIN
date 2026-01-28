@@ -116,6 +116,13 @@ topic: STU3Sequence
 <li><code>UKCore-Observation-VitalSigns-BodyHeight</code> - value[x] changed to allow code for centimeters as well the the original metres
 <li><code>ValueSet-UKCore-BodySite</code> - include all descendants of the SNOMED hierarchy 278001007 | Nonspecific site |to allow for the user case when a clinician is prescribing a cutanious cream or similar to an affected area of the skin. Rather than the clinician having to select all the areas of the body that are affected they can just select the code 22201000087104 | Affected area |.
 </ul>
+<br>
+<b>C&TA Sprint 8:</b><br>
+<ul>
+<li>Issue 16: Updated <code>UKCore-Appointment.serviceType</code> and <code>UKCore-Slot.serviceType</code> to bind to <code>ValueSet-UKCore-CareSettingType</code>.</li>
+<li>Issue 22: Updated <code>UKCore-Observation-TobaccoConsumption.value[x]</code> to include valueCodeableConcept, whilst keeping the existing valueQuantity. Updated <code>ValueSet-UKCore-TobaccoConsumption</code>, updated 'consciousness' to 'consumption' in description.</li>
+</ul>
+<br>
 <b>C&TA Sprint 7 Assets:</b><br>
 <ul>
 <li>Changed proposed assets from draft to active</li>

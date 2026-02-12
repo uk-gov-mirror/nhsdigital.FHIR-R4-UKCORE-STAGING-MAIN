@@ -1,8 +1,8 @@
 <Condition xmlns="http://hl7.org/fhir">
-  <id value="Extension-UKCore-CodingSCT-MoleOfSkin-Example" />
+  <id value="Extension-UKCore-CodingSCTAndCTV3-MoleOfSkin-Example" />
   <text>
     <status value="additional" />
-    <div xmlns="http://www.w3.org/1999/xhtml">This is a FHIR Condition resource recording that the patient has a benign mole (melanocytic naevus) on the skin. It includes both CTV3 and SNOMED codes, along with user-facing text "Moles".</div>
+    <div xmlns="http://www.w3.org/1999/xhtml">This is a FHIR Condition resource recording that the patient has a benign mole (melanocytic naevus) on the skin. It includes both CTV3 and SNOMED codes.</div>
   </text>
   <!-- **************Snippet start************** -->
   <code>
@@ -14,22 +14,12 @@
       <!-- text of V3 PT -->
     </coding>
     <coding>
-      <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-CodingSCTDescDisplay">
-        <valueString value="Mole of skin" />
-        <!-- text for id = 1787065011 -->
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/coding-sctdescid">
-        <valueId value="1787065011" />
-        <!-- not the SNOMED PT -->
-      </extension>
       <system value="http://snomed.info/sct" />
       <code value="400010006" />
       <!-- SNOMED conceptId -->
       <display value="Melanocytic naevus of skin" />
       <!-- text of SNOMED PT -->
     </coding>
-    <text value="Moles" />
-    <!-- what user saw on screen, from data entry template -->
   </code>
   <!-- **************Snippet end************** -->
   <subject>

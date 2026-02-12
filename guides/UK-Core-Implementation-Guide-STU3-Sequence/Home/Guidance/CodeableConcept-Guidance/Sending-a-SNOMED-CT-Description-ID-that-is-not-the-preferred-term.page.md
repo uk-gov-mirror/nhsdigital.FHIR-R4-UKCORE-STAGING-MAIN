@@ -1,6 +1,6 @@
 ## Sending a SNOMED CT Description ID that is not the preferred term
 
-In this case, the SNOMED CT Description ID represents a term that is different from the preferred term and therefore the description display will be different from that used to populate the <code>code.coding.display</code> element. Therefore the extension {{pagelink:Extension-UKCore-CodingSCTDescDisplay}} SHALL be populated with the term corresponding to the selected SNOMED CT Description ID, as per the example below.
+In this case, the SNOMED CT Description ID represents a term that is different from the preferred term and therefore the description display will be different from that used to populate the <code>code.coding.display</code> element. Therefore the extension {{pagelink:Extension-UKCore-CodingSCTDescDisplay}} MAY be populated with the term corresponding to the selected SNOMED CT Description ID, as per the example below.
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'table-view')">Table View</button>

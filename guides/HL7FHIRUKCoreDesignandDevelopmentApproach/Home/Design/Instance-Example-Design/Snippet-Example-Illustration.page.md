@@ -9,17 +9,17 @@
 
 <div id="Table View" class="tabcontent">
   <h3>Table View</h3>
-{{table:UKCore-Extension-CodingSCT-MoleOfSkin-Example, snapshot}}
+{{table:UKCore-Extension-CodingSCTAndCTV3-MoleOfSkin-Example, snapshot}}
 </div>
 
 <div id="XML View" class="tabcontent" style="display:block">
   <h3>XML View</h3>
-{{xml:UKCore-Extension-CodingSCT-MoleOfSkin-Example, snapshot}}
+{{xml:UKCore-Extension-CodingSCTAndCTV3-MoleOfSkin-Example, snapshot}}
 </div>
 
 <div id="JSON View" class="tabcontent">
   <h3>JSON View</h3>
-{{json:UKCore-Extension-CodingSCT-MoleOfSkin-Example, snapshot}}
+{{json:UKCore-Extension-CodingSCTAndCTV3-MoleOfSkin-Example, snapshot}}
 </div>
 </nocheck>
 

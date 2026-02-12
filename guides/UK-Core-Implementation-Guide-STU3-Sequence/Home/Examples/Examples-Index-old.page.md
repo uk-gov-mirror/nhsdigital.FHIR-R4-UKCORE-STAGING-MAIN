@@ -182,7 +182,7 @@ Whilst every effort has been made to ensure that the examples are correct and us
 <li>{{pagelink:Extension-UKCore-CodingSCT-Heart-Example}}</li>
 <li>{{pagelink:Extension-UKCore-CodingSCT-CodeUnknown-Example}}</li>
 <li>{{pagelink:Extension-UKCore-CodingSCT-IllicitDrugs-Example}}</li>
-<li>{{pagelink:Extension-UKCore-CodingSCT-MoleOfSkin-Example}}</li>
+<li>{{pagelink:Extension-UKCore-CodingSCTAndCTV3-MoleOfSkin-Example}}</li>
 <li>{{pagelink:Extension-UKCore-CodingSCT-Myocardial-Example}}</li>
 <li>{{pagelink:Extension-UKCore-CodingSCT-Potassium-Example}}</li>
 <li>{{pagelink:Extension-UKCore-CodingSCT-Weight-Example}}</li>

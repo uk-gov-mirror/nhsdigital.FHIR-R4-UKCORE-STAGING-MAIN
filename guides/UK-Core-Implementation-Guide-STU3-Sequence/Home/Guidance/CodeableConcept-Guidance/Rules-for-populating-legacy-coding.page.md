@@ -34,22 +34,22 @@ In NHS Clinical Terms Version 3 the Term Id is a five character string that uniq
 
 <div id="table-view" class="tabcontent" style="display:block">
   <h3>Table View</h3>
-{{table:Extension-UKCore-CodingSCT-MoleOfSkin-Example}}
+{{table:Extension-UKCore-CodingSCTAndCTV3-MoleOfSkin-Example}}
 </div>
 
 <div id="tree-view" class="tabcontent">
   <h3>Tree View</h3>
-{{tree:Extension-UKCore-CodingSCT-MoleOfSkin-Example, expand:9}}
+{{tree:Extension-UKCore-CodingSCTAndCTV3-MoleOfSkin-Example, expand:9}}
 </div>
 
 <div id="xml-view" class="tabcontent">
   <h3>XML View</h3>
-{{xml:Extension-UKCore-CodingSCT-MoleOfSkin-Example}}
+{{xml:Extension-UKCore-CodingSCTAndCTV3-MoleOfSkin-Example}}
 </div>
 
 <div id="json-view" class="tabcontent">
   <h3>JSON View</h3>
-{{json:Extension-UKCore-CodingSCT-MoleOfSkin-Example}}
+{{json:Extension-UKCore-CodingSCTAndCTV3-MoleOfSkin-Example}}
 </div>
 
 ---

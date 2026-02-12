@@ -48,8 +48,6 @@
   filename: UKCore-Observation-ACVPU
 - name: UKCore-Observation-AlcoholConsumption
   filename: UKCore-Observation-AlcoholConsumption
-- name: UKCore-Observation-AverageBloodPressure
-  filename: UKCore-Observation-AverageBloodPressure
 - name: UKCore-Observation-BloodGlucose
   filename: UKCore-Observation-BloodGlucose
 - name: UKCore-Observation-EarlyWarningTotalScore

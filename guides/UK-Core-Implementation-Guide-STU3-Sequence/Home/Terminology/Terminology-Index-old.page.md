@@ -211,45 +211,6 @@ Within this release of the UK Core, ValueSet expansions have been incorporated i
 </tr>
 
 <tr>
-<td><h4>{{pagelink:ValueSet-UKCore-BloodPressure-Average}}</h4></td>
-<td>draft</td>
-<td>{{pagelink:UKCore-Observation-AverageBloodPressure}}</td>
-<td>7</td>
-</tr>
-<tr>
-<td colspan="4">Composed of CodeSystem <code>http://snomed.info/sct</code></td>
-</tr>
-<tr>
-<td colspan="4"  class="override"></td>
-</tr>
-
-<tr>
-<td><h4>{{pagelink:ValueSet-UKCore-BloodPressure-AverageDiastolic}}</h4></td>
-<td>draft</td>
-<td>{{pagelink:UKCore-Observation-AverageBloodPressure}}</td>
-<td>7</td>
-</tr>
-<tr>
-<td colspan="4">Composed of CodeSystem <code>http://snomed.info/sct</code></td>
-</tr>
-<tr>
-<td colspan="4"  class="override"></td>
-</tr>
-
-<tr>
-<td><h4>{{pagelink:ValueSet-UKCore-BloodPressure-AverageSystolic}}</h4></td>
-<td>draft</td>
-<td>{{pagelink:UKCore-Observation-AverageBloodPressure}}</td>
-<td>7</td>
-</tr>
-<tr>
-<td colspan="4">Composed of CodeSystem <code>http://snomed.info/sct</code></td>
-</tr>
-<tr>
-<td colspan="4"  class="override"></td>
-</tr>
-
-<tr>
 <td><h4>{{pagelink:ValueSet-UKCore-BloodPressure-CuffSize}}</h4></td>
 <td>draft</td>
 <td>{{pagelink:UKCore-Device-BloodPressure}}</td>

@@ -28,7 +28,6 @@ The following are example usage scenarios for the UK Core Observation profile:
 The guidance on this page also applies to the following profiles, that are derived from the UK Core Observation profile:
 - {{pagelink:UKCore-Observation-ACVPU}}
 - {{pagelink:UKCore-Observation-Alcoholconsumption}}
-- {{pagelink:UKCore-Observation-AverageBloodPressure}}
 - {{pagelink:UKCore-Observation-BloodGlucose}}
 - {{pagelink:UKCore-Observation-EarlyWarningTotalScore}}
 - {{pagelink:UKCore-Observation-InspiredOxygen}}

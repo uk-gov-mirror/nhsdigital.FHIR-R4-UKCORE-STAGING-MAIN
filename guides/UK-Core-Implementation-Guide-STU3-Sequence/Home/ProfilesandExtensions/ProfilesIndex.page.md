@@ -180,12 +180,6 @@ In addition, each Profile also has the following:
 <td>7</td>
 </tr>
 <tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;{{pagelink:UKCore-Observation-AverageBloodPressure,text:UKCore-Observation-AverageBloodPressure}}</td>
-<td>active</td>
-<td>A profile <i>derived</i> from the UK Core Observation profile to define the minimal set of data to query and retrieve information regarding a patient's average blood pressure over a specific time period.</td>
-<td>7</td>
-</tr>
-<tr>
 <td>&nbsp;&nbsp;&nbsp;&nbsp;{{pagelink:UKCore-Observation-BloodGlucose,text:UKCore-Observation-BloodGlucose}}</td>
 <td>active</td>
 <td>A profile <i>derived</i> from the UK Core Observation profile to define the minimal set of data to query and retrieve information regarding a patient's blood glucose level.</td>
@@ -389,7 +383,6 @@ In addition, each Profile also has the following:
 <li>{{pagelink:UKCore-Observation,text:UKCore-Observation}}</li>
 <li>&nbsp;&nbsp;{{pagelink:UKCore-Observation-ACVPU,text:UKCore-Observation-ACVPU}}</li>
 <li>&nbsp;&nbsp;{{pagelink:UKCore-Observation-AlcoholConsumption,text:UKCore-Observation-AlcoholConsumption}}</li>
-<li>&nbsp;&nbsp;{{pagelink:UKCore-Observation-AverageBloodPressure,text:UKCore-Observation-AverageBloodPressure}}</li>
 <li>&nbsp;&nbsp;{{pagelink:UKCore-Observation-BloodGlucose,text:UKCore-Observation-BloodGlucose}}</li>
 <li>&nbsp;&nbsp;{{pagelink:UKCore-Observation-EarlyWarningTotalScore,text:UKCore-Observation-EarlyWarningTotalScore}}</li>
 <li>{{pagelink:UKCore-Observation-Group-Lab,text:UKCore-Observation-Group-Lab}}</li>
@@ -492,7 +485,6 @@ In addition, each Profile also has the following:
 <li>{{pagelink:UKCore-Device-BloodPressure,text:UKCore-Device-BloodPressure}}</li>
 <li>{{pagelink:UKCore-Observation-ACVPU,text:UKCore-Observation-ACVPU}}</li>
 <li>{{pagelink:UKCore-Observation-AlcoholConsumption,text:UKCore-Observation-AlcoholConsumption}}</li>
-<li>{{pagelink:UKCore-Observation-AverageBloodPressure,text:UKCore-Observation-AverageBloodPressure}}</li>
 <li>{{pagelink:UKCore-Observation-BloodGlucose,text:UKCore-Observation-BloodGlucose}}</li>
 <li>{{pagelink:UKCore-Observation-EarlyWarningTotalScore,text:UKCore-Observation-EarlyWarningTotalScore}}</li>
 <li>{{pagelink:UKCore-Observation-InspiredOxygen,text:UKCore-Observation-InspiredOxygen}}</li>
@@ -589,7 +581,6 @@ In addition, each Profile also has the following:
 <li>Derived Profiles from UK Core Observation</li>
 <li>&nbsp;&nbsp;{{pagelink:UKCore-Observation-ACVPU,text:UKCore-Observation-ACVPU}}</li>
 <li>&nbsp;&nbsp;{{pagelink:UKCore-Observation-AlcoholConsumption,text:UKCore-Observation-AlcoholConsumption}}</li>
-<li>&nbsp;&nbsp;{{pagelink:UKCore-Observation-AverageBloodPressure,text:UKCore-Observation-AverageBloodPressure}}</li>
 <li>&nbsp;&nbsp;{{pagelink:UKCore-Observation-BloodGlucose,text:UKCore-Observation-BloodGlucose}}</li>
 <li>&nbsp;&nbsp;{{pagelink:UKCore-Observation-EarlyWarningTotalScore,text:UKCore-Observation-EarlyWarningTotalScore}}</li>
 <li>&nbsp;&nbsp;{{pagelink:UKCore-Observation-InspiredOxygen,text:UKCore-Observation-InspiredOxygen}}</li>

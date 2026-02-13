@@ -119,6 +119,8 @@ topic: STU3Sequence
 <br>
 <b>C&TA Sprint 8:</b><br>
 <ul>
+<li>Issue 6 - Deleted <code>UKCore-Observation-AverageBloodPressure</code> and <code>ValueSet-UKCore-BloodPressure-Average</code>. Removed references to these assets in the relevant guide pages.</li>
+<li>Issue 10 - Updated IG requirement for Sending a SNOMED CT Description ID that is not the preferred term. Using the extension <code>Extension-UKCore-CodingSCTDescDisplay</code> requirement changed from SHALL to MAY. Renamed and updated MoleOfSkin example. Updated references to the updated example.</li>
 <li>Issue 16: Updated <code>UKCore-Appointment.serviceType</code> and <code>UKCore-Slot.serviceType</code> to bind to <code>ValueSet-UKCore-CareSettingType</code>.</li>
 <li>Issue 22: Updated <code>UKCore-Observation-TobaccoConsumption.value[x]</code> to include valueCodeableConcept, whilst keeping the existing valueQuantity. Updated <code>ValueSet-UKCore-TobaccoConsumption</code>, updated 'consciousness' to 'consumption' in description.</li>
 </ul>

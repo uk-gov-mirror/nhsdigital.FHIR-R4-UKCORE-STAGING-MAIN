@@ -1,7 +1,7 @@
 ## Sending a SNOMED CT Description ID that is not the preferred term
 
 <div id="newAsset" markdown="span" class="alert alert-success" role="alert"><h4><i class="fa fa-star"></i> Amended Information</h4>
-This guidance has been amended since the last ballot. Users are advised to review all content carefully. Details of the changes can be found within the UK Core Version History.
+This guidance has been amended since the last ballot. Users are advised to review all content carefully. Details of the changes can be found within the <a href="https://simplifier.net/guide/ukcoreversionhistory?version=current">UK Core Version History</a>.
 </div>
 
 In this case, the SNOMED CT Description ID represents a term that is different from the preferred term and therefore the description display will be different from that used to populate the <code>code.coding.display</code> element. Therefore the extension {{pagelink:Extension-UKCore-CodingSCTDescDisplay}} MAY be populated with the term corresponding to the selected SNOMED CT Description ID, as per the example below.

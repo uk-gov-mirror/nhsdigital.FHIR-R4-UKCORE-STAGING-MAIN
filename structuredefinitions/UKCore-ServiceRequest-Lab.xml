@@ -109,7 +109,7 @@
       <binding>
         <strength value="preferred" />
         <description value="A set of codes that define laboratory medicine test requests. Selected from the SNOMED CT UK coding system." />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineProcedures" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-ProcedureCode" />
       </binding>
     </element>
     <element id="ServiceRequest.orderDetail">

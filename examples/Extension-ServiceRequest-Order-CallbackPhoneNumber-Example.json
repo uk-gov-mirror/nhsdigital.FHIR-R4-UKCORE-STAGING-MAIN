@@ -1,6 +1,6 @@
 {
  "resourceType": "ServiceRequest",
- "id": "ServiceRequest-Order-CallbackPhoneNumber-Example",
+ "id": "Extension-ServiceRequest-Order-CallbackPhoneNumber-Example",
  "extension": [
   {
    "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-Coverage",

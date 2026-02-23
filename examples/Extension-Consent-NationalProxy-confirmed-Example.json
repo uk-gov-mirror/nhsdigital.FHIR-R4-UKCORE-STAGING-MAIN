@@ -3,7 +3,7 @@
  "id": "Extension-Consent-NationalProxy-confirmed-Example",
  "extension": [
   {
-   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.grantee",
+   "url": "http://hl7.org/fhir/StructureDefinition/extension-Consent.grantee",
    "valueReference": {
     "reference": "Patient/9000000010",
     "identifier": {

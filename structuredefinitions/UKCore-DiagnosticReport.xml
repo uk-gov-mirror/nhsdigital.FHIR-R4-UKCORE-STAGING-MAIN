@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="UKCore-DiagnosticReport" />
   <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-DiagnosticReport" />
-  <version value="2.7.0" />
+  <version value="3.0.0" />
   <name value="UKCoreDiagnosticReport" />
   <title value="UK Core Diagnostic Report" />
   <status value="active" />
-  <date value="2025-01-22" />
+  <date value="2026-02-25" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -27,59 +27,6 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DiagnosticReport" />
   <derivation value="constraint" />
   <differential>
-    <element id="DiagnosticReport">
-      <path value="DiagnosticReport" />
-      <constraint>
-        <key value="ukcore-diag-lab-002" />
-        <severity value="error" />
-        <human value="If extension-DiagnosticReport.media.link R5 Backport is used then DiagnsoticReport.media.link reference SHALL be empty" />
-        <expression value="DiagnosticReport.media.extension('http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.media.link').empty() or DiagnosticReport.media.link.reference.empty()" />
-      </constraint>
-    </element>
-    <element id="DiagnosticReport.extension:compositionReferenceR5">
-      <path value="DiagnosticReport.extension" />
-      <sliceName value="compositionReferenceR5" />
-      <short value="A Composition reference for a DiagnosticReport. This is a R5 backport." />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.composition" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="DiagnosticReport.extension:compositionReferenceR5.value[x]">
-      <path value="DiagnosticReport.extension.value[x]" />
-      <short value="Reference to a Composition resource." />
-      <definition value="Reference to a Composition resource instance that provides structure for organizing the contents of the DiagnosticReport." />
-    </element>
-    <element id="DiagnosticReport.extension:noteR5">
-      <path value="DiagnosticReport.extension" />
-      <sliceName value="noteR5" />
-      <short value="Comments about the diagnostic report. This is a R5 backport." />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.note" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="DiagnosticReport.extension:noteR5.value[x]">
-      <path value="DiagnosticReport.extension.value[x]" />
-      <definition value="May include general statements about the diagnostic report, or statements about significant, unexpected or unreliable results values contained within the diagnostic report, or information about its source when relevant to its interpretation." />
-    </element>
-    <element id="DiagnosticReport.extension:supportingInfoR5">
-      <path value="DiagnosticReport.extension" />
-      <sliceName value="supportingInfoR5" />
-      <short value="Additional info supporting the diagnostic report. This is a R5 backport." />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.supportingInfo" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="DiagnosticReport.extension:supportingInfoR5.extension">
-      <path value="DiagnosticReport.extension.extension" />
-      <min value="2" />
-    </element>
     <element id="DiagnosticReport.status">
       <path value="DiagnosticReport.status" />
       <short value="The status of the diagnostic report." />
@@ -139,16 +86,6 @@
       <path value="DiagnosticReport.result" />
       <short value="Observations that are part of this diagnostic report." />
       <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.media.extension:linkR5">
-      <path value="DiagnosticReport.media.extension" />
-      <sliceName value="linkR5" />
-      <comment value="To use this element the R4 version of DiagnosticReport.media.link SHALL have the value as extension http://hl7.org/fhir/StructureDefinition/data-absent-reason and valueCode as &quot;unsupported&quot;.  See https://build.fhir.org/versions.html#extensions-examples-complex for more details" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.media.link" />
-      </type>
-      <isModifier value="false" />
     </element>
     <element id="DiagnosticReport.conclusionCode">
       <path value="DiagnosticReport.conclusionCode" />

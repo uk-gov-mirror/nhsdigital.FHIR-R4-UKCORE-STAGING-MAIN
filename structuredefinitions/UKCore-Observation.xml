@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="UKCore-Observation" />
   <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation" />
-  <version value="2.5.0" />
+  <version value="3.0.0" />
   <name value="UKCoreObservation" />
   <title value="UK Core Observation" />
   <status value="active" />
-  <date value="2023-12-12" />
+  <date value="2026-02-25" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -27,51 +27,6 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.extension:triggeredByR5">
-      <path value="Observation.extension" />
-      <sliceName value="triggeredByR5" />
-      <short value="Triggering observation(s). This is a R5 backport." />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy" />
-      </type>
-    </element>
-    <element id="Observation.extension:triggeredByR5.extension:observation">
-      <path value="Observation.extension.extension" />
-      <sliceName value="observation" />
-    </element>
-    <element id="Observation.extension:triggeredByR5.extension:observation.value[x]">
-      <path value="Observation.extension.extension.value[x]" />
-      <short value="Triggering observation." />
-      <definition value="A reference to the triggering observation." />
-    </element>
-    <element id="Observation.extension:triggeredByR5.extension:type">
-      <path value="Observation.extension.extension" />
-      <sliceName value="type" />
-    </element>
-    <element id="Observation.extension:triggeredByR5.extension:type.value[x]">
-      <path value="Observation.extension.extension.value[x]" />
-      <short value="The type of trigger. Reflex | Repeat | Re-run" />
-      <definition value="The type of trigger. Reflex | Repeat | Re-run" />
-    </element>
-    <element id="Observation.extension:triggeredByR5.extension:reason">
-      <path value="Observation.extension.extension" />
-      <sliceName value="reason" />
-    </element>
-    <element id="Observation.extension:triggeredByR5.extension:reason.value[x]">
-      <path value="Observation.extension.extension.value[x]" />
-      <short value="Reason that the observation was triggered." />
-      <definition value="Provides the reason why this observation was performed as a result of the observation referenced." />
-    </element>
-    <element id="Observation.extension:bodyStructureR5">
-      <path value="Observation.extension" />
-      <sliceName value="bodyStructureR5" />
-      <short value="Observed body structure. This is a R5 backport." />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.bodyStructure" />
-      </type>
-    </element>
     <element id="Observation.status">
       <path value="Observation.status" />
       <short value="The status of the result value." />

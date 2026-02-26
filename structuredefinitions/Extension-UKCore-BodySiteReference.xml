@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-UKCore-BodySiteReference" />
   <url value="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-BodySiteReference" />
-  <version value="1.0.0" />
+  <version value="1.0.1" />
   <name value="ExtensionUKCoreBodySiteReference" />
   <title value="Extension UK Core Body Site Reference" />
-  <status value="active" />
-  <date value="2023-04-28" />
+  <status value="retired" />
+  <date value="2026-02-25" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />

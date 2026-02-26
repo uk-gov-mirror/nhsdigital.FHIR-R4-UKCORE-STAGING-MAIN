@@ -1,11 +1,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="UKCore-DiagnosticReport-Lab" />
     <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-DiagnosticReport-Lab" />
-    <version value="2.0.1" />
+    <version value="3.0.0" />
     <name value="UKCoreDiagnosticReportLab" />
     <title value="UK Core Diagnostic Report Lab" />
     <status value="active" />
-    <date value="2024-07-23" />
+    <date value="2026-02-25" />
     <publisher value="HL7 UK" />
     <contact>
         <name value="HL7 UK" />
@@ -34,50 +34,6 @@
                 <human value="An issued time SHOULD be present if status = partial, preliminary, final, amended, corrected or appended" />
                 <expression value="issued.exists() or (issued.empty() and (status in (&#39;partial&#39; | &#39;preliminary&#39; | &#39;final&#39; | &#39;amended&#39; | &#39;corrected&#39; | &#39;appended&#39;)).not())" />
             </constraint>
-        </element>
-        <element id="DiagnosticReport.extension:compositionReferenceR5">
-            <path value="DiagnosticReport.extension" />
-            <sliceName value="compositionReferenceR5" />
-            <short value="A Composition reference for a DiagnosticReport. This is a R5 backport." />
-            <max value="1" />
-            <type>
-                <code value="Extension" />
-                <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.composition" />
-            </type>
-            <isModifier value="false" />
-        </element>
-        <element id="DiagnosticReport.extension:compositionReferenceR5.value[x]">
-            <path value="DiagnosticReport.extension.value[x]" />
-            <short value="Reference to a Composition resource." />
-            <definition value="Reference to a Composition resource instance that provides structure for organizing the contents of the DiagnosticReport." />
-        </element>
-        <element id="DiagnosticReport.extension:noteR5">
-            <path value="DiagnosticReport.extension" />
-            <sliceName value="noteR5" />
-            <short value="Comments about the diagnostic report. This is a R5 backport." />
-            <type>
-                <code value="Extension" />
-                <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.note" />
-            </type>
-            <isModifier value="false" />
-        </element>
-        <element id="DiagnosticReport.extension:noteR5.value[x]">
-            <path value="DiagnosticReport.extension.value[x]" />
-            <definition value="May include general statements about the diagnostic report, or statements about significant, unexpected or unreliable results values contained within the diagnostic report, or information about its source when relevant to its interpretation." />
-        </element>
-        <element id="DiagnosticReport.extension:supportingInfoR5">
-            <path value="DiagnosticReport.extension" />
-            <sliceName value="supportingInfoR5" />
-            <short value="Additional info supporting the diagnostic report. This is a R5 backport." />
-            <type>
-                <code value="Extension" />
-                <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.supportingInfo" />
-            </type>
-            <isModifier value="false" />
-        </element>
-        <element id="DiagnosticReport.extension:supportingInfoR5.extension">
-            <path value="DiagnosticReport.extension.extension" />
-            <min value="2" />
         </element>
         <element id="DiagnosticReport.status">
             <path value="DiagnosticReport.status" />

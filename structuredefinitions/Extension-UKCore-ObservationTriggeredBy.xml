@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-UKCore-ObservationTriggeredBy" />
   <url value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy" />
-  <version value="1.1.0" />
+  <version value="1.1.1" />
   <name value="ExtensionUKCoreObservationTriggeredBy" />
   <title value="Extension UK Core Observation Triggered By" />
-  <status value="active" />
-  <date value="2023-12-12" />
+  <status value="retired" />
+  <date value="2026-02-25" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />

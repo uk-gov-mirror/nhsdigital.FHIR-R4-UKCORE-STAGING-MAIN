@@ -1,11 +1,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="UKCore-Observation-Lab" />
   <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation-Lab" />
-  <version value="2.3.0" />
+  <version value="3.0.0" />
   <name value="UKCoreObservationLab" />
   <title value="UK Core Observation Lab" />
   <status value="active" />
-  <date value="2025-12-08" />
+  <date value="2026-02-25" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -34,23 +34,6 @@
         <human value="Either `value`, `dataAbsentReason` or `note` SHOULD be populated" />
         <expression value="value.exists() or dataAbsentReason.exists() or note.exists()" />
       </constraint>
-    </element>
-    <element id="Observation.extension:bodyStructureR5">
-      <path value="Observation.extension" />
-      <sliceName value="bodyStructureR5" />
-      <short value="Observed body structure. This is a R5 backport." />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.bodyStructure" />
-      </type>
-    </element>
-    <element id="Observation.extension:ObservationTriggeredBy">
-      <path value="Observation.extension" />
-      <sliceName value="ObservationTriggeredBy" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy" />
-      </type>
     </element>
     <element id="Observation.extension:ObservationOrganizer">
       <path value="Observation.extension" />

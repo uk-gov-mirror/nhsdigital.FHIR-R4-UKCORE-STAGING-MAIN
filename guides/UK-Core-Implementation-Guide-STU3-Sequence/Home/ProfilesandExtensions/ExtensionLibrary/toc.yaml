@@ -10,8 +10,6 @@
   filename: Extension-UKCore-AssociatedEncounter.page.md
 - name: Extension-UKCore-BirthSex
   filename: Extension-UKCore-BirthSex.page.md
-- name: Extension-UKCore-BodySiteReference
-  filename: Extension-UKCore-BodySiteReference.page.md
 - name: Extension-UKCore-BookingOrganization
   filename: Extension-UKCore-BookingOrganization.page.md
 - name: Extension-UKCore-CareSettingType
@@ -38,14 +36,6 @@
   filename: Extension-UKCore-DeliveryChannel.page.md
 - name: Extension-UKCore-DeviceReference
   filename: Extension-UKCore-DeviceReference.page.md
-- name: Extension-UKCore-DiagnosticReportComposition
-  filename: Extension-UKCore-DiagnosticReportComposition.page.md
-- name: Extension-UKCore-DiagnosticReportMediaLink
-  filename: Extension-UKCore-DiagnosticReportMediaLink.page.md
-- name: Extension-UKCore-DiagnosticReportNote
-  filename: Extension-UKCore-DiagnosticReportNote.page.md
-- name: Extension-UKCore-DiagnosticReportSupportingInfo
-  filename: Extension-UKCore-DiagnosticReportSupportingInfo.page.md
 - name: Extension-UKCore-DischargeMethod
   filename: Extension-UKCore-DischargeMethod.page.md
 - name: Extension-UKCore-EmergencyCareDischargeStatus
@@ -54,8 +44,6 @@
   filename: Extension-UKCore-EthnicCategory.page.md
 - name: Extension-UKCore-Evidence
   filename: Extension-UKCore-Evidence.page.md
-- name: Extension-UKCore-FamilyMemberHistoryParticipant
-  filename: Extension-UKCore-FamilyMemberHistoryParticipant.page.md
 - name: Extension-UKCore-LegalStatus
   filename: Extension-UKCore-LegalStatus.page.md
 - name: Extension-UKCore-ListWarningCode
@@ -74,12 +62,8 @@
   filename: Extension-UKCore-NHSNumberUnavailableReason.page.md
 - name: Extension-UKCore-NHSNumberVerificationStatus
   filename: Extension-UKCore-NHSNumberVerificationStatus.page.md
-- name: Extension-UKCore-ObservationBodyStructure
-  filename: Extension-UKCore-ObservationBodyStructure.page.md
-  - name: Extension-UKCore-ObservationOrganizer
+- name: Extension-UKCore-ObservationOrganizer
   filename: Extension-UKCore-ObservationOrganizer.page.md
-- name: Extension-UKCore-ObservationTriggeredBy
-  filename: Extension-UKCore-ObservationTriggeredBy.page.md
 - name: Extension-UKCore-OtherContactSystem
   filename: Extension-UKCore-OtherContactSystem.page.md
 - name: Extension-UKCore-OutcomeOfAttendance
@@ -100,16 +84,6 @@
   filename: Extension-UKCore-SampleCategory.page.md
 - name: Extension-UKCore-SourceOfServiceRequest
   filename: Extension-UKCore-SourceOfServiceRequest.page.md
-- name: Extension-UKCore-SpecimenCollectionCollector
-  filename: Extension-UKCore-SpecimenCollectionCollector.page.md
-- name: Extension-UKCore-SpecimenContainerDevice
-  filename: Extension-UKCore-SpecimenContainerDevice.page.md
-- name: Extension-UKCore-SpecimenContainerLocation
-  filename: Extension-UKCore-SpecimenContainerLocation.page.md
-- name: Extension-UKCore-SubscriptionContent
-  filename: Extension-UKCore-SubscriptionContent.page.md
-- name: Extension-UKCore-SubscriptionParameter
-  filename: Extension-UKCore-SubscriptionParameter.page.md
 - name: Extension-UKCore-TreatmentCategory
   filename: Extension-UKCore-TreatmentCategory.page.md
 - name: Extension-UKCore-TypedDateTime

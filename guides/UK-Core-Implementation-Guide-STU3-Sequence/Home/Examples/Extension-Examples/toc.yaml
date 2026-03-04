@@ -16,8 +16,6 @@
   filename: Extension-UKCore-BirthSex-Example.page.md
 - name: Extension-UKCore-BirthTime-Example
   filename: Extension-UKCore-BirthTime-Example.page.md
-- name: Extension-UKCore-BodySiteReference-Example
-  filename: Extension-UKCore-BodySiteReference-Example.page.md
 - name: Extension-UKCore-BookingOrganization-Example
   filename: Extension-UKCore-BookingOrganization-Example.page.md
 - name: Extension-UKCore-CadavericDonor-Example
@@ -64,8 +62,6 @@
   filename: Extension-UKCore-DeliveryChannel-Example.page.md
 - name: Extension-UKCore-DeviceReference-Example
   filename: Extension-UKCore-DeviceReference-Example.page.md
-- name: Extension-UKCore-DiagnosticReportMediaLinkR5-Example
-  filename: Extension-UKCore-DiagnosticReportMediaLinkR5-Example.page.md
 - name: Extension-UKCore-DischargeMethod-Example
   filename: Extension-UKCore-DischargeMethod-Example.page.md
 - name: Extension-UKCore-EffectivePeriod-Example
@@ -140,12 +136,6 @@
   filename: Extension-UKCore-SourceOfServiceRequest-Example.page.md
 - name: Extension-UKCore-SpecialHandling-Example
   filename: Extension-UKCore-SpecialHandling-Example.page.md
-- name: Extension-UKCore-SpecimenCollectionCollector-Example
-  filename: Extension-UKCore-SpecimenCollectionCollector-Example.page.md
-- name: Extension-UKCore-SpecimenContainerDeviceBackport-Example
-  filename: Extension-UKCore-SpecimenContainerDeviceBackport-Example.page.md
-- name: Extension-UKCore-SubscriptionParameters-Example
-  filename: Extension-UKCore-SubscriptionParameters-Example.page.md
 - name: Extension-UKCore-Translation-Example
   filename: Extension-UKCore-Translation-Example.page.md
 - name: Extension-UKCore-TriggeredBy-Example

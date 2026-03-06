@@ -22,6 +22,12 @@ topic: STU3Sequence
 <br>
 <b>General IG improvements:</b><br>
 <ul>
+<li>Removed IG pages and references to retired and deleted R5 backport Extensions.</li>
+<li>Removed references to retired and deleted R5 backport Extensions in StructureDefinition assets: <code>UKCore-DiagnosticReport-Lab</code>; <code>UKCore-DiagnosticReport</code>; <code>UKCore-FamilyMemberHistory</code>; <code>UKCore-Observation-Lab</code>; <code>UKCore-Observation</code>; and <code>UKCore-Specimen</code>.</li>
+<li>Retired R5 backport Extension assets: <code>Extension-UKCore-BodySiteReference</code>; <code>Extension-UKCore-DiagnosticReportComposition</code>; <code>Extension-UKCore-DiagnosticReportNote</code>; <code>Extension-UKCore-DiagnosticReportSupportingInfo</code>; <code>Extension-UKCore-FamilyMemberHistoryParticipant</code>; <code>Extension-UKCore-ObservationBodyStructure</code>; <code>Extension-UKCore-ObservationTriggeredBy</code>; and <code>Extension-UKCore-SpecimenCollectionCollector</code>.</li>
+<li>Deleted StructureDefinition asset <code>UKCore-Subscription</code>.</li>
+<li>Deleted R5 backport Extension assets: <code>Extension-UKCore-DiagnosticReportMediaLink</code>; <code>Extension-UKCore-SpecimenContainerDevice</code>; <code>Extension-UKCore-SpecimenContainerLocation</code>; <code>Extension-UKCore-SubscriptionContent</code>; and <code>Extension-UKCore-SubscriptionParameter</code>.</li>
+<li>Deleted R5 backport Example assets: <code>Extension-UKCore-BodySiteReference-Example</code>; <code>Extension-UKCore-DiagnosticReportMediaLinkR5-Example</code>; <code>Extension-UKCore-SpecimenCollectionCollector-Example</code>; <code>Extension-UKCore-SpecimenContainerDeviceBackport-Example</code>; and <code>Extension-UKCore-SubscriptionParameters-Example</code>.</li>
 <li><code>UKCore-Observation_Group-Lab</code> retired and replaced with the R6 backport element <code>Observation.organizer</code>
 <li><code>ValueSet-UKCore-PathologyBoundedCodeListObservables</code> SNOMED CT RefSet split and new <code>ValueSet-UKCore-PathologyBoundedCodeListObservables</code> created. This allows implementers to state which ValueSet the code belongs to.</li>
 <li> NamingSystems page created to link users to the NamingSystems Guide

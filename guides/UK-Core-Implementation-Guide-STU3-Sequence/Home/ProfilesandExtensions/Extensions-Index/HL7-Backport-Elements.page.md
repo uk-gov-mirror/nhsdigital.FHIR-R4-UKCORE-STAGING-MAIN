@@ -1,15 +1,17 @@
 ---
 topic: Library-Extensions-PreAdopt
 ---
-## Pre-adopted R5/R6 Elements
+## Cross Version Extensions
 
+Elements from other FHIR versions can be used within R4 by applying the relevant cross‑version extension packages. This enables implementers to incorporate newer elements without fully upgrading to a newer FHIR release.
 
-The following <a href="https://hl7.org/fhir/versions.html#extensions" class="external">R5 elements</a> have been agreed as suitable to be included for use with the UK Core {{pagelink:Library-Profiles,text:Profiles}} because the use case for pre-adopting an R5 element as an Extension, rather than creating a UK Core specific extension is fully met.
+Links for the R5 elements to R4 can be found at https://hl7.org/fhir/uv/xver-r5.r4/0.1.0/ 
 
-<div class="NewAddedItem">Rules and examples for creating and using extensions between versions can be found within <a href="https://build.fhir.org/versions.html#extensions class="external">FHIR Build - Version Management Policy</a>.</div><br>
+See <a href="https://confluence.hl7.org/spaces/FHIRI/pages/413256623/FAQs">HL7 Confluence: Cross Version Extensions FAQs</a> for more details
 
+### R6 Cross-version extensions
 
-<i>As of 19/05/2023, the package to enable pre-adopted elements to function as per the guidance, is not available. To enable rendering and validation of these pre-adopted elements, we have provided UK Core proxy extensions, as per the current threads on <a href="https://chat.fhir.org/#narrow/stream/179166-implementers/topic/R5.20Extensions.20for.20R4.3F" class="external">chat.fhir.org</a>, with the R5 canonical urls. These proxy extensions will be retired once the HL7 package is released.</i>
+A cross version extension package is expected to be released when R6 has become normative. Until then extensions will have to be created manually. Below is a list that have been created. Note: these extensions will be removed once the new xver-r6.r4 extension package has been released.
 
 <fql>
 from StructureDefinition

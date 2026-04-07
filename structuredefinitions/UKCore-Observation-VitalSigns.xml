@@ -1,11 +1,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="UKCore-Observation-VitalSigns" />
   <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation-VitalSigns" />
-  <version value="0.1.1" />
+  <version value="0.2.0" />
   <name value="UKCoreObservationVitalSigns" />
   <title value="UK Core Observation Vital Signs" />
   <status value="draft" />
-  <date value="2025-11-06" />
+  <date value="2026-04-07" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -23,7 +23,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Observation" />
-  <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/vitalsigns" />
   <derivation value="constraint" />
   <differential>
     <element id="Observation">
@@ -68,7 +68,6 @@
     <element id="Observation.category">
       <path value="Observation.category" />
       <short value="A category of `vital-signs` SHALL be present." />
-      <min value="1" />
       <max value="1" />
     </element>
     <element id="Observation.category.coding.system">
@@ -82,20 +81,36 @@
     <element id="Observation.code">
       <path value="Observation.code" />
       <short value="The type of vital signs observation (code / type)." />
+    </element>
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.code.coding:VSCodeSnomedCT">
+      <path value="Observation.code.coding" />
+      <sliceName value="VSCodeSnomedCT" />
       <binding>
         <strength value="preferred" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-ObservationVitalSignsType" />
       </binding>
     </element>
+    <element id="Observation.code.coding:VSCodeSnomedCT.system">
+      <path value="Observation.code.coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
       <short value="Who or what the observation relates to SHALL be present." />
-      <min value="1" />
     </element>
     <element id="Observation.effective[x]">
       <path value="Observation.effective[x]" />
       <short value="A clinically relevant time / time-period for observation SHALL be present." />
-      <min value="1" />
     </element>
   </differential>
 </StructureDefinition>

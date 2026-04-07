@@ -27,16 +27,6 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/bp" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.code.coding">
-      <path value="Observation.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
     <element id="Observation.code.coding:BPCodeSnomedct">
       <path value="Observation.code.coding" />
       <sliceName value="BPCodeSnomedct" />

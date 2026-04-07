@@ -3,7 +3,7 @@
   <url value="https://fhir.hl7.org.uk/ValueSet/UKCore-BodyWeightUCUM" />
   <version value="0.1.0" />
   <name value="UKCoreBodyWeightUCUM" />
-  <title value="UK Core UCUM" />
+  <title value="UK Core Body Weight UCUM" />
   <status value="draft" />
   <date value="2026-04-07" />
   <publisher value="HL7 UK" />

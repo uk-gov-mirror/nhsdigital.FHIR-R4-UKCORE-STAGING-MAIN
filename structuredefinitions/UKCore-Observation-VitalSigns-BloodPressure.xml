@@ -61,30 +61,9 @@
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Device-BloodPressure" />
       </type>
     </element>
-    <element id="Observation.component">
-      <path value="Observation.component" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-      <max value="2" />
-    </element>
     <element id="Observation.component:SystolicBP">
       <path value="Observation.component" />
       <sliceName value="SystolicBP" />
-    </element>
-    <element id="Observation.component:SystolicBP.code.coding">
-      <path value="Observation.component.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
     </element>
     <element id="Observation.component:SystolicBP.code.coding:SBPCodeSnomedCT">
       <path value="Observation.component.code.coding" />
@@ -152,17 +131,13 @@
         <code value="Quantity" />
       </type>
     </element>
-    <element id="Observation.component:DiastolicBP.value[x].unit">
+    <element id="Observation.component:DiastolicBP.value[x]:valueQuantity">
+      <path value="Observation.component.value[x]" />
+      <sliceName value="valueQuantity" />
+    </element>
+    <element id="Observation.component:DiastolicBP.value[x]:valueQuantity.unit">
       <path value="Observation.component.value[x].unit" />
       <fixedString value="millimeter of mercury" />
-    </element>
-    <element id="Observation.component:DiastolicBP.value[x].system">
-      <path value="Observation.component.value[x].system" />
-      <fixedUri value="http://unitsofmeasure.org" />
-    </element>
-    <element id="Observation.component:DiastolicBP.value[x].code">
-      <path value="Observation.component.value[x].code" />
-      <fixedCode value="mm[Hg]" />
     </element>
   </differential>
 </StructureDefinition>

@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="UKCore-Observation-VitalSigns-BodyTemperature" />
   <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation-VitalSigns-BodyTemperature" />
-  <version value="0.1.1" />
+  <version value="0.2.0" />
   <name value="UKCoreObservationVitalSignsBodyTemperature" />
   <title value="UK Core Observation Vital Signs Body Temperature" />
   <status value="draft" />
-  <date value="2025-11-06" />
+  <date value="2026-04-07" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -24,15 +24,20 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Observation" />
-  <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation-VitalSigns" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/bodytemp" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.code">
-      <path value="Observation.code" />
+    <element id="Observation.code.coding:BodyTempCodeSnomedCT">
+      <path value="Observation.code.coding" />
+      <sliceName value="BodyTempCodeSnomedCT" />
       <binding>
         <strength value="preferred" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BodyTemperature" />
       </binding>
+    </element>
+    <element id="Observation.code.coding:BodyTempCodeSnomedCT.system">
+      <path value="Observation.code.coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
@@ -41,16 +46,15 @@
         <code value="Quantity" />
       </type>
     </element>
-    <element id="Observation.value[x].unit">
+    <element id="Observation.value[x]:valueQuantity">
+      <path value="Observation.value[x]" />
+      <sliceName value="valueQuantity" />
+    </element>
+    <element id="Observation.value[x]:valueQuantity.unit">
       <path value="Observation.value[x].unit" />
-      <min value="1" />
       <fixedString value="degree Celsius" />
     </element>
-    <element id="Observation.value[x].system">
-      <path value="Observation.value[x].system" />
-      <fixedUri value="http://unitsofmeasure.org" />
-    </element>
-    <element id="Observation.value[x].code">
+    <element id="Observation.value[x]:valueQuantity.code">
       <path value="Observation.value[x].code" />
       <fixedCode value="Cel" />
     </element>

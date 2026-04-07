@@ -3,10 +3,11 @@
   "version": "2.0.0",
   "description": "UK Core FHIR profiles and Assets",
   "author": "NHS Digital",
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1",
+    "hl7.fhir.uv.tools.r4": "1.1.2"
+  },
   "fhirVersions": [
     "4.0.1"
-  ],
-  "dependencies": {
-    "hl7.fhir.r4.core": "4.0.1"
-  }
+  ]
 }

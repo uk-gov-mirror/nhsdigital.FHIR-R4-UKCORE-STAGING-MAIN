@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="UKCore-Observation-VitalSigns-HeartRate" />
   <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation-VitalSigns-HeartRate" />
-  <version value="0.1.1" />
+  <version value="0.2.0" />
   <name value="UKCoreObservationVitalSignsHeartRate" />
   <title value="UK Core Observation Vital Signs Heart Rate" />
   <status value="draft" />
-  <date value="2025-11-06" />
+  <date value="2026-04-07" />
   <publisher value="HL7 UK" />
   <contact>
     <name value="HL7 UK" />
@@ -24,15 +24,20 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Observation" />
-  <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation-VitalSigns" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/heartrate" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.code">
-      <path value="Observation.code" />
+    <element id="Observation.code.coding:HeartRateCodeSnomedCT">
+      <path value="Observation.code.coding" />
+      <sliceName value="HeartRateCodeSnomedCT" />
       <binding>
         <strength value="preferred" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-HeartRate" />
       </binding>
+    </element>
+    <element id="Observation.code.coding:HeartRateCodeSnomedCT.system">
+      <path value="Observation.code.coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
@@ -41,20 +46,13 @@
         <code value="Quantity" />
       </type>
     </element>
-    <element id="Observation.value[x].unit">
+    <element id="Observation.value[x]:valueQuantity">
+      <path value="Observation.value[x]" />
+      <sliceName value="valueQuantity" />
+    </element>
+    <element id="Observation.value[x]:valueQuantity.unit">
       <path value="Observation.value[x].unit" />
-      <min value="1" />
       <fixedString value="per minute" />
-    </element>
-    <element id="Observation.value[x].system">
-      <path value="Observation.value[x].system" />
-      <min value="1" />
-      <fixedUri value="http://unitsofmeasure.org" />
-    </element>
-    <element id="Observation.value[x].code">
-      <path value="Observation.value[x].code" />
-      <min value="1" />
-      <fixedCode value="/min" />
     </element>
   </differential>
 </StructureDefinition>

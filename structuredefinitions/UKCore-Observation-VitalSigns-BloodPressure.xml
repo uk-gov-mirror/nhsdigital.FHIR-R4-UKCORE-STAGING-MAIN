@@ -40,14 +40,17 @@
     <element id="Observation.code.coding:BPCodeSnomedct">
       <path value="Observation.code.coding" />
       <sliceName value="BPCodeSnomedct" />
-      <binding>
-        <strength value="preferred" />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BloodPressure" />
-      </binding>
     </element>
     <element id="Observation.code.coding:BPCodeSnomedct.system">
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.code.coding:BPCodeSnomedct.code">
+      <path value="Observation.code.coding.code" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BloodPressure" />
+      </binding>
     </element>
     <element id="Observation.method">
       <path value="Observation.method" />

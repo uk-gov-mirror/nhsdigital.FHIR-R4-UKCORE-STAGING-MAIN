@@ -27,7 +27,7 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/bp" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.code.coding:BPCodeSnomedct">
+    <element id="Observation.code.coding:BPCodeSnomedCT">
       <path value="Observation.code.coding" />
       <sliceName value="BPCodeSnomedct" />
     </element>

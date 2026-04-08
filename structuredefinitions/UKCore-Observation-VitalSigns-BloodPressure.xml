@@ -29,13 +29,13 @@
   <differential>
     <element id="Observation.code.coding:BPCodeSnomedCT">
       <path value="Observation.code.coding" />
-      <sliceName value="BPCodeSnomedct" />
+      <sliceName value="BPCodeSnomedCT" />
     </element>
-    <element id="Observation.code.coding:BPCodeSnomedct.system">
+    <element id="Observation.code.coding:BPCodeSnomedCT.system">
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://snomed.info/sct" />
     </element>
-    <element id="Observation.code.coding:BPCodeSnomedct.code">
+    <element id="Observation.code.coding:BPCodeSnomedCT.code">
       <path value="Observation.code.coding.code" />
       <binding>
         <strength value="preferred" />
@@ -75,65 +75,47 @@
     </element>
     <element id="Observation.component:SystolicBP.code.coding:SBPCodeSnomedCT.system">
       <path value="Observation.component.code.coding.system" />
+      <min value="1" />
       <fixedUri value="http://snomed.info/sct" />
     </element>
-    <element id="Observation.component:SystolicBP.value[x]">
-      <path value="Observation.component.value[x]" />
+    <element id="Observation.component:SystolicBP.code.coding:SBPCodeSnomedCT.code">
+      <path value="Observation.component.code.coding.code" />
       <min value="1" />
-      <type>
-        <code value="Quantity" />
-      </type>
     </element>
-    <element id="Observation.component:SystolicBP.value[x].unit">
+    <element id="Observation.component:SystolicBP.value[x]:valueQuantity">
+      <path value="Observation.component.value[x]" />
+      <sliceName value="valueQuantity" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component:SystolicBP.value[x]:valueQuantity.unit">
       <path value="Observation.component.value[x].unit" />
       <fixedString value="millimeter of mercury" />
-    </element>
-    <element id="Observation.component:SystolicBP.value[x].system">
-      <path value="Observation.component.value[x].system" />
-      <fixedUri value="http://unitsofmeasure.org" />
-    </element>
-    <element id="Observation.component:SystolicBP.value[x].code">
-      <path value="Observation.component.value[x].code" />
-      <fixedCode value="mm[Hg]" />
     </element>
     <element id="Observation.component:DiastolicBP">
       <path value="Observation.component" />
       <sliceName value="DiastolicBP" />
     </element>
-    <element id="Observation.component:DiastolicBP.code.coding:diastolicbp-code-loinc">
+    <element id="Observation.component:DiastolicBP.code.coding:DBPCodeSnomedCT">
       <path value="Observation.component.code.coding" />
-      <sliceName value="diastolicbp-code-loinc" />
-    </element>
-    <element id="Observation.component:DiastolicBP.code.coding:diastolicbp-code-loinc.system">
-      <path value="Observation.component.code.coding.system" />
-      <fixedUri value="http://loinc.org" />
-    </element>
-    <element id="Observation.component:DiastolicBP.code.coding:diastolicbp-code-loinc.code">
-      <path value="Observation.component.code.coding.code" />
-      <fixedCode value="8462-4" />
-    </element>
-    <element id="Observation.component:DiastolicBP.code.coding:diastolic-code-snomedct">
-      <path value="Observation.component.code.coding" />
-      <sliceName value="diastolic-code-snomedct" />
+      <sliceName value="DBPCodeSnomedCT" />
       <binding>
         <strength value="preferred" />
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BloodPressure-Diastolic" />
       </binding>
     </element>
-    <element id="Observation.component:DiastolicBP.code.coding:diastolic-code-snomedct.system">
+    <element id="Observation.component:DiastolicBP.code.coding:DBPCodeSnomedCT.system">
       <path value="Observation.component.code.coding.system" />
+      <min value="1" />
       <fixedUri value="http://snomed.info/sct" />
     </element>
-    <element id="Observation.component:DiastolicBP.value[x]">
-      <path value="Observation.component.value[x]" />
+    <element id="Observation.component:DiastolicBP.code.coding:DBPCodeSnomedCT.code">
+      <path value="Observation.component.code.coding.code" />
       <min value="1" />
-      <type>
-        <code value="Quantity" />
-      </type>
     </element>
     <element id="Observation.component:DiastolicBP.value[x]:valueQuantity">
       <path value="Observation.component.value[x]" />
       <sliceName value="valueQuantity" />
+      <min value="1" />
     </element>
     <element id="Observation.component:DiastolicBP.value[x]:valueQuantity.unit">
       <path value="Observation.component.value[x].unit" />

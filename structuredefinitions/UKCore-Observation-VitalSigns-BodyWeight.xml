@@ -37,30 +37,17 @@
     </element>
     <element id="Observation.code.coding:BodyWeightCodeSnomedCT.system">
       <path value="Observation.code.coding.system" />
+      <min value="1" />
       <fixedUri value="http://snomed.info/sct" />
     </element>
-    <element id="Observation.value[x]">
-      <path value="Observation.value[x]" />
+    <element id="Observation.code.coding:BodyWeightCodeSnomedCT.code">
+      <path value="Observation.code.coding.code" />
       <min value="1" />
-      <type>
-        <code value="Quantity" />
-      </type>
-    </element>
-    <element id="Observation.value[x].unit">
-      <path value="Observation.value[x].unit" />
-      <fixedString value="kilogram" />
-    </element>
-    <element id="Observation.value[x].system">
-      <path value="Observation.value[x].system" />
-      <fixedUri value="http://unitsofmeasure.org" />
-    </element>
-    <element id="Observation.value[x].code">
-      <path value="Observation.value[x].code" />
-      <fixedCode value="kg" />
     </element>
     <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
+      <min value="1" />
     </element>
     <element id="Observation.value[x]:valueQuantity.code">
       <path value="Observation.value[x].code" />

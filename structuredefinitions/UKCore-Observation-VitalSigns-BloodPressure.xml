@@ -82,6 +82,12 @@
       <path value="Observation.component.code.coding.code" />
       <min value="1" />
     </element>
+    <element id="Observation.component:SystolicBP.value[x]">
+      <path value="Observation.component.value[x]" />
+      <type>
+        <code value="Quantity" />
+      </type>
+    </element>
     <element id="Observation.component:SystolicBP.value[x]:valueQuantity">
       <path value="Observation.component.value[x]" />
       <sliceName value="valueQuantity" />
@@ -112,10 +118,15 @@
       <path value="Observation.component.code.coding.code" />
       <min value="1" />
     </element>
+    <element id="Observation.component:DiastolicBP.value[x]">
+      <path value="Observation.component.value[x]" />
+      <type>
+        <code value="Quantity" />
+      </type>
+    </element>
     <element id="Observation.component:DiastolicBP.value[x]:valueQuantity">
       <path value="Observation.component.value[x]" />
       <sliceName value="valueQuantity" />
-      <min value="1" />
     </element>
     <element id="Observation.component:DiastolicBP.value[x]:valueQuantity.unit">
       <path value="Observation.component.value[x].unit" />

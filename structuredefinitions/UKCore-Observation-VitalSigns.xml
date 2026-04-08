@@ -77,8 +77,8 @@
       <path value="Observation.code.coding" />
       <slicing>
         <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
+          <type value="value" />
+          <path value="pattern[x]" />
         </discriminator>
         <rules value="open" />
       </slicing>

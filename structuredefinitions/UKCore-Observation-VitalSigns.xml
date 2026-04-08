@@ -78,7 +78,7 @@
       <slicing>
         <discriminator>
           <type value="value" />
-          <path value="pattern[x]" />
+          <path value="system" />
         </discriminator>
         <rules value="open" />
       </slicing>

@@ -82,6 +82,7 @@
         </discriminator>
         <rules value="open" />
       </slicing>
+      <short value="Code defined by a terminology system." />
     </element>
     <element id="Observation.code.coding:VSCodeSnomedCT">
       <path value="Observation.code.coding" />

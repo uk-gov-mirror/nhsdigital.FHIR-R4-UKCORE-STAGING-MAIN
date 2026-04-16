@@ -26,7 +26,7 @@ The following are example usage scenarios for the UK Core Observation Vital Sign
 
 ## Profile Specific Implementation Guidance: ##
 
-The UKCore-Observation-VitalSigns-BMI profile further derives from {{pagelink:UKCore-Observation-VitalSigns,text:UKCore-Observation-VitalSigns}} and this page only shows the differences between the two. Refer to {{pagelink:UKCore-Observation,text:UKCore-Observation}} and {{pagelink:UKCore-Observation-VitalSigns,text:UKCore-Observation-VitalSigns}} for more implementation guidance.
+The use of LOINC codes are neccessary to conform to <a href="https://hl7.org/fhir/R4/observation.html#core">HL7 international</a> requirements. SNOMED CT Codes have been added as equivalent codes.
 
 ### Mandatory and Must Support Data Elements
 

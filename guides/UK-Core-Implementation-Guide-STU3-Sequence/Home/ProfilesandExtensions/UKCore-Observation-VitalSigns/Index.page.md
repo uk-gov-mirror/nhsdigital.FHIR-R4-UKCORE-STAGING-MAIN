@@ -25,9 +25,7 @@ The following are example usage scenarios for the UK Core Observation Vital Sign
 
 ## Profile Specific Implementation Guidance: ##
 
-This is a derived profile of {{pagelink:UKCore-Observation,text:UKCore-Observation}} and this page only shows the differences between the two. Refer to the base Profile for more implementation guidance.
-
-This guidance is also designed to align with [https://hl7.org/fhir/R4/observation-vitalsigns.html](HL7 Observation Vital Signs guidance) where possible.
+This guidance is designed to align with [https://hl7.org/fhir/R4/observation-vitalsigns.html](HL7 Observation Vital Signs guidance).
 
 The guidance on this page also applies to the following profiles, that are derived from the UK Core Observation Vital Signs profile:
 - {{pagelink:UKCore-Observation-VitalSigns-BloodPressure}}
@@ -39,6 +37,8 @@ The guidance on this page also applies to the following profiles, that are deriv
 - {{pagelink:UKCore-Observation-VitalSigns-HeartRate}}
 - {{pagelink:UKCore-Observation-VitalSigns-OxygenSaturation}}
 - {{pagelink:UKCore-Observation-VitalSigns-RespirationRate}}
+
+The use of LOINC codes are neccessary to conform to <a href="https://hl7.org/fhir/R4/observation.html#core">HL7 international</a> requirements. SNOMED CT Codes have been added as equivalent codes. 
 
 ### Mandatory and Must Support Data Elements
 

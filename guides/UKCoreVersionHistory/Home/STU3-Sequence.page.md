@@ -22,6 +22,7 @@ topic: STU3Sequence
 <br>
 <b>General IG improvements:</b><br>
 <ul>
+<li>Changed all VitalSigns derived profiles baseDefinitions to reference HL7 Internal profiles. This ensures international conformance as per <a href="https://build.fhir.org/observation.html#core">10.1.1.1 Core Profiles for Observation</a>.
 <li>Removed IG pages and references to retired and deleted R5 backport Extensions.</li>
 <li>Removed references to retired and deleted R5 backport Extensions in StructureDefinition assets: <code>UKCore-DiagnosticReport-Lab</code>; <code>UKCore-DiagnosticReport</code>; <code>UKCore-FamilyMemberHistory</code>; <code>UKCore-Observation-Lab</code>; <code>UKCore-Observation</code>; and <code>UKCore-Specimen</code>.</li>
 <li>Retired R5 backport Extension assets: <code>Extension-UKCore-BodySiteReference</code>; <code>Extension-UKCore-DiagnosticReportComposition</code>; <code>Extension-UKCore-DiagnosticReportNote</code>; <code>Extension-UKCore-DiagnosticReportSupportingInfo</code>; <code>Extension-UKCore-FamilyMemberHistoryParticipant</code>; <code>Extension-UKCore-ObservationBodyStructure</code>; <code>Extension-UKCore-ObservationTriggeredBy</code>; and <code>Extension-UKCore-SpecimenCollectionCollector</code>.</li>

@@ -21,7 +21,6 @@
 &#13; - 75367002 | Blood pressure (observable entity) |
 &#13; - 386534000 | Arterial blood pressure (observable entity) |
 &#13; - 87179004 | Arterial pulse pressure (observable entity) |
-&#13; - 386533006 | Invasive blood pressure (observable entity) |
 &#13; - 386532001 | Invasive arterial pressure (observable entity) |
 &#13; - 723237002 | Non-invasive blood pressure (observable entity) |
 &#13; - 251076008 | Non-invasive arterial pressure (observable entity) |
@@ -104,11 +103,6 @@
       <system value="http://snomed.info/sct" />
       <code value="386532001" />
       <display value="Invasive arterial pressure" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="386533006" />
-      <display value="Invasive blood pressure" />
     </contains>
     <contains>
       <system value="http://snomed.info/sct" />

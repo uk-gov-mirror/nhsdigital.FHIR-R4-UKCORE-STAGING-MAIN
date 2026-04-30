@@ -30,6 +30,33 @@ In addition, each Profile also has the following:
 
 </div>
 
+## Core Profiles
+
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'profiles')">Profiles</button>
+  <button class="tablinks" onclick="openTab(event, 'derived-profiles')">Derived Profiles</button>
+  <button class="tablinks" onclick="openTab(event, 'profiles-with-purpose')">Profiles with Info</button>
+  <button class="tablinks" onclick="openTab(event, 'derived-profiles-with-purpose')">Derived Profiles with Info</button>
+</div>
+
+<div id="profiles" class="tabcontent" style="display:block">
+  {{page:Profiles-Table}}
+</div>
+
+<div id="derived-profiles" class="tabcontent" style="display:none">
+  {{page:Derived-Profiles-Table}}
+</div>
+
+<div id="profiles-with-purpose" class="tabcontent" style="display:none">
+  {{page:Profiles-Table-With-Purpose}}
+</div>
+
+<div id="derived-profiles-with-purpose" class="tabcontent" style="display:none">
+  {{page:Derived-Profiles-Table-With-Purpose}}
+</div>
+
+## Derived Profiles
+
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'profiles')">Profiles</button>
   <button class="tablinks" onclick="openTab(event, 'derived-profiles')">Derived Profiles</button>

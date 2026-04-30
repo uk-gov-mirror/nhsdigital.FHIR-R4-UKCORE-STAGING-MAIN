@@ -18,6 +18,28 @@ Other ValueSets are usable if the binding strength is defined as extensible. For
 Within this release of the UK Core, ValueSet expansions have been incorporated into the ValueSets. For some ValueSets containing SNOMED CT or dm+d data in particular, the number of concepts were deemed too large to expand. It should also be remembered that the expansions of SNOMED CT data in particular represent the content available at the time the expansion was generated, but that this content can subsequently change. For an up to date and complete list of values, suppliers SHOULD consult the latest SNOMED CT terminology release.
 </div>
 
+<div id="newAsset" markdown="span" class="alert alert-success" role="alert"><h4><i class="fa fa-star"></i>
+<h2> SNOMED CT UK Edition</h2>
+
+The FHIR UK Core terminology bindings utilise the UK Edition of SNOMED CT. This edition includes the International release of SNOMED CT, supplemented by UK-specific clinical concepts, reference sets, and descriptions that reflect the needs of health and care services across the United Kingdom. 
+
+
+UK Core mandates the use of SNOMED CT, specifically the SNOMED CT UK Edition, for all clinical concepts where SNOMED CT is indicated.
+All UK Core profiles, value sets, and examples that reference SNOMED CT SHALL be interpreted using the SNOMED CT UK Edition.
+
+SNOMED CT International URI:  
+    `http://snomed.info/sct`  
+  
+SNOMED CT UK Edition URI:  
+    `http://snomed.info/sct/83821000000107`
+  
+  
+Implementations claiming conformance to UK Core SHALL support the latest version of the SNOMED CT UK Edition and any UK‑specific reference sets used by UK Core artefacts.
+
+The latest release can be accessed via:
+- the [The NHS England terminology server](https://digital.nhs.uk/services/terminology-server), or
+- the [NHS England TRUD](https://isd.digital.nhs.uk/trud/users/guest/filters/0/home) (Technology Reference data Update Distribution) service
+</div>
 
 <style>
  [class*=override] {

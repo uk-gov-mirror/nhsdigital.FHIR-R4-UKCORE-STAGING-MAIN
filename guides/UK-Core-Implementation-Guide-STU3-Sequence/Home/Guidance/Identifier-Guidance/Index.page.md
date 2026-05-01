@@ -1,6 +1,6 @@
 # {{page-title}}
 
-<div id="newAsset" markdown="span" class="alert alert-success" role="alert"><h4><i class="fa fa-star">
+<div id="newAsset" markdown="span" class="alert alert-success" role="alert"><h4><i class="fa fa-star"></i></h4>
 <h2> Principles</h2>
 The following principles apply to the definition and use of identifier systems within UK Core–conformant implementations:
 
@@ -19,15 +19,15 @@ Implementations SHOULD NOT assume system URIs are permanently resolvable or immu
 
 
 - Use of the NamingSystem resource is OPTIONAL.
-NamingSystem resources are intended for historical reference and documentation only. Implementations SHOULD NOT rely on the presence of a NamingSystem for runtime processing or validation.
+NamingSystem resources are intended for historical reference and documentation only. 
 
 
 - Do not rely on assigner or type for processing or search.
 Best practice is to avoid dependence on Identifier.assigner or Identifier.type, as neither element is reliably searchable across implementations.
 
-See <a href="https://build.fhir.org/datatypes.html#Identifier">DataTypes - Identifier</a> and <a hred="https://build.fhir.org/ig/HL7/fhir-for-fair/FHIRidentifiers.html>FHIR for FAIR - FHIR Identifiers</a>for more information
+See <a href="https://build.fhir.org/datatypes.html#Identifier">DataTypes - Identifier</a> and <a href="https://build.fhir.org/ig/HL7/fhir-for-fair/FHIRidentifiers.html">FHIR for FAIR - FHIR Identifiers</a>for more information
 
-<h2>Identifier System Preferred Approach</h2>
+<h2>Identifier System Example Approach</h2>
 
 Where a recognised identifier system exists, or one can reasonably be established:
 

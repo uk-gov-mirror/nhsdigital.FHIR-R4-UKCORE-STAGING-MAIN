@@ -22,6 +22,7 @@ topic: STU3Sequence
 <br>
 <b>General IG improvements:</b><br>
 <ul>
+<li>Added guidance on use of SNOMED CT UK Edition to Terminology Index page
 <li>Changed all VitalSigns derived profiles baseDefinitions to reference HL7 Internal profiles. This ensures international conformance as per <a href="https://build.fhir.org/observation.html#core">10.1.1.1 Core Profiles for Observation</a>.
 <li>Removed IG pages and references to retired and deleted R5 backport Extensions.</li>
 <li>Removed references to retired and deleted R5 backport Extensions in StructureDefinition assets: <code>UKCore-DiagnosticReport-Lab</code>; <code>UKCore-DiagnosticReport</code>; <code>UKCore-FamilyMemberHistory</code>; <code>UKCore-Observation-Lab</code>; <code>UKCore-Observation</code>; and <code>UKCore-Specimen</code>.</li>

@@ -1,5 +1,7 @@
 - name: Sitemap Overview
   filename: Sitemap-Overview
+- name: Identifier Guidance
+  filename: Identifier-Guidance
 - name: DataType Guidance
   filename: DataTypeGuidance
 - name: CodeableConcept Guidance
@@ -10,3 +12,4 @@
   filename: MustSupport-Guidance
 - name: Lifecycle
   filename: Lifecycle
+

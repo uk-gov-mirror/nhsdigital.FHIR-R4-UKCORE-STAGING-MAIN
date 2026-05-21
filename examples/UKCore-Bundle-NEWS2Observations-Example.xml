@@ -2,13 +2,13 @@
   <id value="UKCore-Bundle-NEWS2Observations-Example" />
   <type value="collection" />
   <entry>
-    <fullUrl value="Observation/21344a45-2660-45d1-9fb3-49e54d14b662" />
+    <fullUrl value="urn:uuid:21344a45-2660-45d1-9fb3-49e54d14b662" />
     <resource>
       <Observation>
         <id value="21344a45-2660-45d1-9fb3-49e54d14b662" />
         <identifier>
-          <system value="https://tools.ietf.org/html/rfc4122" />
-          <value value="7188c7ad-7802-4d43-9775-4d9d684600d5" />
+          <system value="urn:ietf:rfc:3986" />
+          <value value="urn:uuid:7188c7ad-7802-4d43-9775-4d9d684600d5" />
         </identifier>
         <status value="final" />
         <category>
@@ -42,25 +42,25 @@
           <code value="{ScoreOf}" />
         </valueQuantity>
         <derivedFrom>
-          <reference value="Observation/fc6c6fa5-d8e8-4634-a19a-985325077cb2" />
+          <reference value="urn:uuid:fc6c6fa5-d8e8-4634-a19a-985325077cb2" />
         </derivedFrom>
         <derivedFrom>
-          <reference value="Observation/638c6821-eb51-4f1b-b8c0-5269d1df9b7c" />
+          <reference value="urn:uuid:638c6821-eb51-4f1b-b8c0-5269d1df9b7c" />
         </derivedFrom>
         <derivedFrom>
-          <reference value="Observation/5a1625e8-938e-4c19-9d3e-a235bfb4b37d" />
+          <reference value="urn:uuid:5a1625e8-938e-4c19-9d3e-a235bfb4b37d" />
         </derivedFrom>
         <derivedFrom>
-          <reference value="Observation/c756fd32-f04e-45a9-b02f-2461ed53c736" />
+          <reference value="urn:uuid:c756fd32-f04e-45a9-b02f-2461ed53c736" />
         </derivedFrom>
         <derivedFrom>
-          <reference value="Observation/1a1273f4-dd78-4bb4-bb98-ed6456caa2a2" />
+          <reference value="urn:uuid:1a1273f4-dd78-4bb4-bb98-ed6456caa2a2" />
         </derivedFrom>
         <derivedFrom>
-          <reference value="Observation/f0d26102-3a50-4993-9203-6089b625fc2f" />
+          <reference value="urn:uuid:f0d26102-3a50-4993-9203-6089b625fc2f" />
         </derivedFrom>
         <derivedFrom>
-          <reference value="Observation/dbf6ec86-ebd7-4490-8586-596328519ed2" />
+          <reference value="urn:uuid:dbf6ec86-ebd7-4490-8586-596328519ed2" />
         </derivedFrom>
         <component>
           <code>
@@ -171,13 +171,13 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="Observation/dbf6ec86-ebd7-4490-8586-596328519ed2" />
+    <fullUrl value="urn:uuid:dbf6ec86-ebd7-4490-8586-596328519ed2" />
     <resource>
       <Observation>
         <id value="dbf6ec86-ebd7-4490-8586-596328519ed2" />
         <identifier>
-          <system value="https://tools.ietf.org/html/rfc4122" />
-          <value value="2936d52c-5ae3-434b-8978-bfa7563ed31a" />
+          <system value="urn:ietf:rfc:3986" />
+          <value value="urn:uuid:2936d52c-5ae3-434b-8978-bfa7563ed31a" />
         </identifier>
         <status value="final" />
         <category>
@@ -219,13 +219,13 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="Observation/f0d26102-3a50-4993-9203-6089b625fc2f" />
+    <fullUrl value="urn:uuid:f0d26102-3a50-4993-9203-6089b625fc2f" />
     <resource>
       <Observation>
         <id value="f0d26102-3a50-4993-9203-6089b625fc2f" />
         <identifier>
-          <system value="https://tools.ietf.org/html/rfc4122" />
-          <value value="99a2f708-66aa-4e7f-a09c-5742600f376d" />
+          <system value="urn:ietf:rfc:3986" />
+          <value value="urn:uuid:99a2f708-66aa-4e7f-a09c-5742600f376d" />
         </identifier>
         <status value="final" />
         <category>
@@ -273,13 +273,13 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="Observation/1a1273f4-dd78-4bb4-bb98-ed6456caa2a2" />
+    <fullUrl value="urn:uuid:1a1273f4-dd78-4bb4-bb98-ed6456caa2a2" />
     <resource>
       <Observation>
         <id value="1a1273f4-dd78-4bb4-bb98-ed6456caa2a2" />
         <identifier>
-          <system value="https://tools.ietf.org/html/rfc4122" />
-          <value value="de2273eb-ecb0-4205-862e-6a43b8f71ec1" />
+          <system value="urn:ietf:rfc:3986" />
+          <value value="urn:uuid:de2273eb-ecb0-4205-862e-6a43b8f71ec1" />
         </identifier>
         <status value="final" />
         <category>
@@ -321,13 +321,13 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="Observation/c756fd32-f04e-45a9-b02f-2461ed53c736" />
+    <fullUrl value="urn:uuid:c756fd32-f04e-45a9-b02f-2461ed53c736" />
     <resource>
       <Observation>
         <id value="c756fd32-f04e-45a9-b02f-2461ed53c736" />
         <identifier>
-          <system value="https://tools.ietf.org/html/rfc4122" />
-          <value value="ce084616-c540-4032-aeb3-ef35347600c5" />
+          <system value="urn:ietf:rfc:3986" />
+          <value value="urn:uuid:ce084616-c540-4032-aeb3-ef35347600c5" />
         </identifier>
         <status value="final" />
         <code>
@@ -351,13 +351,13 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="Observation/5a1625e8-938e-4c19-9d3e-a235bfb4b37d" />
+    <fullUrl value="urn:uuid:5a1625e8-938e-4c19-9d3e-a235bfb4b37d" />
     <resource>
       <Observation>
         <id value="5a1625e8-938e-4c19-9d3e-a235bfb4b37d" />
         <identifier>
-          <system value="https://tools.ietf.org/html/rfc4122" />
-          <value value="cff7c586-5a41-403b-a276-fc2cce24bf3b" />
+          <system value="urn:ietf:rfc:3986" />
+          <value value="urn:uuid:cff7c586-5a41-403b-a276-fc2cce24bf3b" />
         </identifier>
         <status value="final" />
         <category>
@@ -399,13 +399,13 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="Observation/638c6821-eb51-4f1b-b8c0-5269d1df9b7c" />
+    <fullUrl value="urn:uuid:638c6821-eb51-4f1b-b8c0-5269d1df9b7c" />
     <resource>
       <Observation>
         <id value="638c6821-eb51-4f1b-b8c0-5269d1df9b7c" />
         <identifier>
-          <system value="https://tools.ietf.org/html/rfc4122" />
-          <value value="8b77f37d-eb6b-427c-9cd5-b1a2166b8fdb" />
+          <system value="urn:ietf:rfc:3986" />
+          <value value="urn:uuid:8b77f37d-eb6b-427c-9cd5-b1a2166b8fdb" />
         </identifier>
         <status value="final" />
         <category>
@@ -488,13 +488,13 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="Observation/fc6c6fa5-d8e8-4634-a19a-985325077cb2" />
+    <fullUrl value="urn:uuid:fc6c6fa5-d8e8-4634-a19a-985325077cb2" />
     <resource>
       <Observation>
         <id value="fc6c6fa5-d8e8-4634-a19a-985325077cb2" />
         <identifier>
-          <system value="https://tools.ietf.org/html/rfc4122" />
-          <value value="2d16bf3f-4369-446c-8ceb-a0e103296208" />
+          <system value="urn:ietf:rfc:3986" />
+          <value value="urn:uuid:2d16bf3f-4369-446c-8ceb-a0e103296208" />
         </identifier>
         <status value="final" />
         <category>

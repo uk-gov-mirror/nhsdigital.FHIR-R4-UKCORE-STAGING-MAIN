@@ -28,7 +28,6 @@
       <enableBehavior value="any" />
       <repeats value="true" />
       <item>
-        <linkId value="Q1.1g" />
         <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
           <valueCodeableConcept>
             <coding>
@@ -38,6 +37,7 @@
             </coding>
           </valueCodeableConcept>
         </extension>
+        <linkId value="Q1.1g" />
         <text value="ATP Problems" />
         <type value="choice" />
         <enableBehavior value="any" />

@@ -83,13 +83,6 @@
         <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-AllergySubstance" />
       </binding>
     </element>
-    <element id="AllergyIntolerance.reaction.manifestation">
-      <path value="AllergyIntolerance.reaction.manifestation" />
-      <binding>
-        <strength value="preferred" />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-AllergyManifestation" />
-      </binding>
-    </element>
     <element id="AllergyIntolerance.reaction.severity">
       <path value="AllergyIntolerance.reaction.severity" />
       <short value="A clinical assessment of the severity of the reaction event as a whole." />

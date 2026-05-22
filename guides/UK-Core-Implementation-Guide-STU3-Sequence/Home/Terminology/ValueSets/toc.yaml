@@ -10,8 +10,6 @@
   filename: ValueSet-UKCore-AlcoholConsumption.page.md
 - name: ValueSet-UKCore-AllergyCode
   filename: ValueSet-UKCore-AllergyCode.page.md
-- name: ValueSet-UKCore-AllergyManifestation
-  filename: ValueSet-UKCore-AllergyManifestation.page.md
 - name: ValueSet-UKCore-AllergySubstance
   filename: ValueSet-UKCore-AllergySubstance.page.md
 - name: ValueSet-UKCore-AppointmentReasonCode

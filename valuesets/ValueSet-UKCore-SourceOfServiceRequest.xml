@@ -200,7 +200,7 @@
         </contains>
         <contains>
             <system value="http://snomed.info/sct" /><code value="305959006" />
-            <displayvalue="Referral by chest physician" />
+            <display value="Referral by chest physician" />
         </contains>
         <contains>
             <system value="http://snomed.info/sct" /><code value="305986006" />
@@ -575,7 +575,7 @@
             <display value="Referral by neurologist" />
         </contains>
         <contains>
-            <systemvalue="http: //snomed.info/sct" /><code value="305955000" />
+            <system value="http://snomed.info/sct" /><code value="305955000" />
             <display value="Referral by neuropathologist" />
         </contains>
         <contains>
@@ -820,7 +820,7 @@
         </contains>
         <contains>
             <system value="http://snomed.info/sct" /><code value="306726005" />
-            <displayvalue="Referral by research nurse" />
+            <display value="Referral by research nurse" />
         </contains>
         <contains>
             <system value="http://snomed.info/sct" /><code value="305961002" />
@@ -856,7 +856,7 @@
         </contains>
         <contains>
             <system value="http://snomed.info/sct" />
-            <codevalue="306091002" />
+            <code value="306091002" />
             <display value="Referral by social services department social worker" />
         </contains>
         <contains>
@@ -1073,7 +1073,7 @@
         </contains>
         <contains>
             <system value="http://snomed.info/sct" />
-            <codevalue="1036481000000106" />
+            <code value="1036481000000106" />
             <display value="Self-referral to IAPT (Improving Access to Psychological Therapies) programme" />
         </contains>
         <contains>

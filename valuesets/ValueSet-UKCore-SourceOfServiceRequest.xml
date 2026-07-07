@@ -30,310 +30,1067 @@
             </filter>
         </include>
     </compose>
-  <expansion>
-    <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
-      <valueBoolean value="true" />
-    </extension>
-    <identifier value="0ca3ae33-ba5f-4ee2-873c-f73f349d3e70" />
-    <timestamp value="2022-02-23T08:33:53+00:00" />
-    <total value="57" />
-    <offset value="0" />
-    <parameter>
-      <name value="version" />
-      <valueUri value="http://snomed.info/sct|http://snomed.info/sct/83821000000107/version/20220119" />
-    </parameter>
-    <parameter>
-      <name value="count" />
-      <valueInteger value="2147483647" />
-    </parameter>
-    <parameter>
-      <name value="offset" />
-      <valueInteger value="0" />
-    </parameter>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183701009" />
-      <display value="Dermatology self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183697006" />
-      <display value="ENT self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183688007" />
-      <display value="General medical self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183689004" />
-      <display value="General surgical self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183691007" />
-      <display value="Geriatric self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183693005" />
-      <display value="Gynaecological self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183705000" />
-      <display value="Haematology self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183702002" />
-      <display value="Neurology self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183695003" />
-      <display value="Obstetric self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183699009" />
-      <display value="Ophthalmology self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183696002" />
-      <display value="Orthopaedic self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183692000" />
-      <display value="Paediatric self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="760081000000107" />
-      <display value="Physiotherapy self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183706004" />
-      <display value="Plastic surgery self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183690008" />
-      <display value="Psychiatric self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183704001" />
-      <display value="Radiotherapy self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="1066021000000105" />
-      <display value="Referred by advanced care practitioner" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="185359002" />
-      <display value="Referred by another GP" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="200181000000100" />
-      <display value="Referred by cardiologist" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="1065391000000104" />
-      <display value="Referred by carer" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="185361006" />
-      <display value="Referred by community doctor" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="835221000000101" />
-      <display value="Referred by community matron" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="1077201000000101" />
-      <display value="Referred by community mental health nurse" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="1077191000000103" />
-      <display value="Referred by community nurse" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="312357002" />
-      <display value="Referred by consultant" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="185366001" />
-      <display value="Referred by dentist" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="1033551000000109" />
-      <display value="Referred by Diabetes UK roadshow clinician" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="309014007" />
-      <display value="Referred by doctor" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="185373006" />
-      <display value="Referred by family" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="108161000000109" />
-      <display value="Referred by general practitioner" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="1052681000000105" />
-      <display value="Referred by health visitor" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="200171000000102" />
-      <display value="Referred by heart failure nurse specialist" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="185360007" />
-      <display value="Referred by hospital doctor" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="276491000" />
-      <display value="Referred by member of Primary Health Care Team" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="185363009" />
-      <display value="Referred by midwife" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="185362004" />
-      <display value="Referred by nurse" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="185368000" />
-      <display value="Referred by optician" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="185369008" />
-      <display value="Referred by pharmacist" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="2051000124106" />
-      <display value="Referred by physician assistant" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="185370009" />
-      <display value="Referred by physiotherapist" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="2021000124102" />
-      <display value="Referred by primary care physician" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="1079521000000104" />
-      <display value="Referred by private sector physician" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="1065401000000101" />
-      <display value="Referred by school nurse" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="1991000124105" />
-      <display value="Referred by self" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="185365002" />
-      <display value="Referred by social worker" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="2031000124104" />
-      <display value="Referred by specialist physician" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183700005" />
-      <display value="Rheumatology self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="1107201000000100" />
-      <display value="Self referral for digital cognitive behavioural therapy for insomnia" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="304301000000105" />
-      <display value="Self referral to substance misuse service" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="769411000000104" />
-      <display value="Self referral to termination of pregnancy service" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="507291000000100" />
-      <display value="Self-referral to accident and emergency department" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183687002" />
-      <display value="Self-referral to hospital" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="1036481000000106" />
-      <display value="Self-referral to IAPT (Improving Access to Psychological Therapies) programme" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="198151000000108" />
-      <display value="Self-referral to minor injuries clinic" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="310434002" />
-      <display value="Self-referral to service" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="266752005" />
-      <display value="Trauma self-referral" />
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct" />
-      <code value="183703007" />
-      <display value="Urology self-referral" />
-    </contains>
-  </expansion>
+    <expansion>
+        <identifier value="urn:uuid:b04808bf-5b3a-4ec2-8b79-2ea27a700a49" />
+        <timestamp value="2026-07-07T10:49:02+00:00" />
+        <total value="262" />
+        <parameter>
+            <name value="used-codesystem" />
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/83821000000107/version/20260603" />
+        </parameter>
+        <parameter>
+            <name value="version" />
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/83821000000107/version/20260603" />
+        </parameter>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183701009" />
+            <display value="Dermatology self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183697006" />
+            <display value="ENT self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183688007" />
+            <display value="General medical self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183689004" />
+            <display value="General surgical self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183691007" />
+            <display value="Geriatric self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183693005" />
+            <display value="Gynaecological self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183705000" />
+            <display value="Haematology self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183702002" />
+            <display value="Neurology self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183695003" />
+            <display value="Obstetric self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183699009" />
+            <display value="Ophthalmology self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183696002" />
+            <display value="Orthopaedic self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183692000" />
+            <display value="Paediatric self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="760081000000107" />
+            <display value="Physiotherapy self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183706004" />
+            <display value="Plastic surgery self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183690008" />
+            <display value="Psychiatric self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183704001" />
+            <display value="Radiotherapy self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305925007" />
+            <display value="Referral by Accident and Emergency doctor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305941008" />
+            <display value="Referral by adult intensive care specialist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306722007" />
+            <display value="Referral by agency nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305926008" />
+            <display value="Referral by anaesthetist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="92281000000102" />
+            <display value="Referral by approved social worker" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306059003" />
+            <display value="Referral by art therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306057001" />
+            <display value="Referral by arts therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="449191000000102" />
+            <display value="Referral by assistant general practitioner" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="449221000000109" />
+            <display value="Referral by associate general practitioner" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305914003" />
+            <display value="Referral by audiological physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305913009" />
+            <display value="Referral by audiologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306064004" />
+            <display value="Referral by audiology technician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305919008" />
+            <display value="Referral by bereavement counsellor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305950005" />
+            <display value="Referral by blood transfusion doctor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306028000" />
+            <display value="Referral by breast care nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305999009" />
+            <display value="Referral by breast surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306029008" />
+            <display value="Referral by cardiac rehabilitation nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306002003" />
+            <display value="Referral by cardiac surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305958003" />
+            <display value="Referral by cardiologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306000006" />
+            <display value="Referral by cardiothoracic surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305976005" />
+            <display value="Referral by care of the elderly physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306099000" />
+            <display value="Referral by carer" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305951009" />
+            <display value="Referral by chemical pathologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305959006" />
+            <displayvalue="Referral by chest physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305986006" />
+            <display value="Referral by child and adolescent psychiatrist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305957008" />
+            <display value="Referral by clinical allergist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305973002" />
+            <display value="Referral by clinical cytogeneticist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305972007" />
+            <display value="Referral by clinical geneticist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="307061004" />
+            <display value="Referral by clinical haematologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305962009" />
+            <display value="Referral by clinical immunologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305974008" />
+            <display value="Referral by clinical molecular geneticist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305963004" />
+            <display value="Referral by clinical neurophysiologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306027005" />
+            <display value="Referral by clinical nurse specialist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305927004" />
+            <display value="Referral by clinical oncologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305964005" />
+            <display value="Referral by clinical pharmacologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305965006" />
+            <display value="Referral by clinical physiologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="407701000000106" />
+            <display value="Referral by co-operative general practitioner" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306012005" />
+            <display value="Referral by colorectal surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305915002" />
+            <display value="Referral by community doctor in audiology" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="86451000000109" />
+            <display value="Referral by community mental health nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305944000" />
+            <display value="Referral by community paediatrician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="242211000000109" />
+            <display value="Referral by community pharmacist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306046006" />
+            <display value="Referral by community psychiatric nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306069009" />
+            <display value="Referral by community-based dietitian" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306053002" />
+            <display value="Referral by community-based midwife" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306045005" />
+            <display value="Referral by community-based nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306072002" />
+            <display value="Referral by community-based occupational therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306080009" />
+            <display value="Referral by community-based physiotherapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306066002" />
+            <display value="Referral by community-based podiatrist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306087007" />
+            <display value="Referral by community-based speech and language therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306047002" />
+            <display value="Referral by company nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305923000" />
+            <display value="Referral by complementary therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="397671002" />
+            <display value="Referral by consultant" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="397654003" />
+            <display value="Referral by consultant - domiciliary visit" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306030003" />
+            <display value="Referral by contact tracing nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306031004" />
+            <display value="Referral by continence nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305918000" />
+            <display value="Referral by counsellor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306060008" />
+            <display value="Referral by dance therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306003008" />
+            <display value="Referral by dental surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="437191000000106" />
+            <display value="Referral by deputising general practitioner" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305966007" />
+            <display value="Referral by dermatologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306032006" />
+            <display value="Referral by diabetic liaison nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306085004" />
+            <display value="Referral by diagnostic radiographer" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306068001" />
+            <display value="Referral by dietitian" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306048007" />
+            <display value="Referralby district nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306061007" />
+            <display value="Referral by drama therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306007009" />
+            <display value="Referral by ear, nose and throat surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="242181000000108" />
+            <display value="Referral by emergency care practitioner" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306008004" />
+            <display value="Referral by endocrine surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305967003" />
+            <display value="Referral by endocrinologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305930006" />
+            <display value="Referralby family planning doctor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305987002" />
+            <display value="Referral by forensic psychiatrist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305968008" />
+            <display value="Referral by gastroenterologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306009007" />
+            <display value="Referralby gastrointestinal surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="397603003" />
+            <display value="Referral by general dental practitioner" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306734004" />
+            <display value="Referral by general dental surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306010002" />
+            <display value="Referral by general gastrointestinal surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305952002" />
+            <display value="Referral by general pathologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305970004" />
+            <display value="Referral by general physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="395611000000102" />
+            <display value="Referral by general practitioner registrar" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306013000" />
+            <display value="Referral by general surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305920002" />
+            <display value="Referral by genetic counsellor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305971000" />
+            <display value="Referral by geneticist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305975009" />
+            <display value="Referral by genitourinary medicine physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306033001" />
+            <display value="Referral by genitourinary nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305931005" />
+            <display value="Referral by GP" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305994004" />
+            <display value="Referral by gynaecologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305953007" />
+            <display value="Referral by haematologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306014006" />
+            <display value="Referral by hand surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="1052761000000106" />
+            <display value="Referral by health visitor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305912004" />
+            <display value="Referral by health worker" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305916001" />
+            <display value="Referral by hearing therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306015007" />
+            <display value="Referral by hepatobiliary surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306054008" />
+            <display value="Referral by hospital midwife" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306070005" />
+            <display value="Referral by hospital-based dietitian" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306074001" />
+            <display value="Referral by hospital-based occupational therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306081008" />
+            <display value="Referral by hospital-based physiotherapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306067006" />
+            <display value="Referral by hospital-based podiatrist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306088002" />
+            <display value="Referral by hospital-based speech and language therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305977001" />
+            <display value="Referral by infectious diseases physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305940009" />
+            <display value="Referral by intensive care specialist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306723002" />
+            <display value="Referral by liaison nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305988007" />
+            <display value="Referral by liaison psychiatrist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306094005" />
+            <display value="Referral by lip/speech-reading teacher" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="461401000000107" />
+            <display value="Referral by locum general practitioner" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306036009" />
+            <display value="Referral by lymphoedema care nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306034007" />
+            <display value="Referral by Macmillan nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306035008" />
+            <display value="Referral by Marie Curie nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305921003" />
+            <display value="Referral by marriage guidance counsellor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305954001" />
+            <display value="Referral by medical microbiologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="310514000" />
+            <display value="Referral by medical oncologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305922005" />
+            <display value="Referral by mental health counsellor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306052007" />
+            <display value="Referral by midwife" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306062000" />
+            <display value="Referral by music therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305945004" />
+            <display value="Referral by neonatologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305978006" />
+            <display value="Referral by nephrologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305979003" />
+            <display value="Referral by neurologist" />
+        </contains>
+        <contains>
+            <systemvalue="http: //snomed.info/sct" /><code value="305955000" />
+            <display value="Referral by neuropathologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306016008" />
+            <display value="Referral by neurosurgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="92271000000104" />
+            <display value="Referral by non-health worker" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305980000" />
+            <display value="Referral by nuclear medicine physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183917008" />
+            <display value="Referral by nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306037000" />
+            <display value="Referral by nurse behavioural therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306724008" />
+            <display value="Referral by nurse practitioner" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306038005" />
+            <display value="Referral bynurse psychotherapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305995003" />
+            <display value="Referral by obstetrician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305993005" />
+            <display value="Referral by obstetrician and gynaecologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305996002" />
+            <display value="Referral by occupational health physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306071009" />
+            <display value="Referral by occupational therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306042008" />
+            <display value="Referral by oncology nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306017004" />
+            <display value="Referral by ophthalmologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="387624005" />
+            <display value="Referral by optician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="387625006" />
+            <display value="Referral by optometrist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306018009" />
+            <display value="Referral by oral surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306004002" />
+            <display value="Referral by orthodontist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306019001" />
+            <display value="Referral by orthopaedic surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306076004" />
+            <display value="Referral by orthoptist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306077008" />
+            <display value="Referral by orthotist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="429709006" />
+            <display value="Referral by osteopath" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="763351000000109" />
+            <display value="Referral by out of hours general practitioner" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306725009" />
+            <display value="Referral by outreach nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305932003" />
+            <display value="Referral by own GP" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305917005" />
+            <display value="Referral by paediatric audiologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306005001" />
+            <display value="Referral by paediatric dentist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305942001" />
+            <display value="Referral by paediatric intensive care specialist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305946003" />
+            <display value="Referral by paediatric neurologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306040000" />
+            <display value="Referral by paediatric nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305947007" />
+            <display value="Referral by paediatric oncologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306020007" />
+            <display value="Referral by paediatric surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305943006" />
+            <display value="Referral by paediatrician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306039002" />
+            <display value="Referral by pain management nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305948002" />
+            <display value="Referral by pain management specialist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305981001" />
+            <display value="Referral by palliative care physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306021006" />
+            <display value="Referral by pancreatic surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305933008" />
+            <display value="Referral by partner of GP" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305949005" />
+            <display value="Referral by pathologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306089005" />
+            <display value="Referral by pharmacist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305956004" />
+            <display value="Referral by physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306079006" />
+            <display value="Referral by physiotherapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306022004" />
+            <display value="Referral by plastic surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306063005" />
+            <display value="Referral by play therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="698565005" />
+            <display value="Referral by podiatric surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306065003" />
+            <display value="Referral by podiatrist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306050004" />
+            <display value="Referral by practice nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306056005" />
+            <display value="Referral byprofessional allied to medicine" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="397684006" />
+            <display value="Referral by prosthetist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306041001" />
+            <display value="Referral by psychiatric nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305985005" />
+            <display value="Referral by psychiatrist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305989004" />
+            <display value="Referral by psychogeriatrician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="429387009" />
+            <display value="Referral by psychologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306055009" />
+            <display value="Referral by psychotherapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305992000" />
+            <display value="Referral by public health physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306082001" />
+            <display value="Referral by radiographer" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305997006" />
+            <display value="Referral by radiologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305929001" />
+            <display value="Referral by radiotherapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305983003" />
+            <display value="Referral by rehabilitation physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305991007" />
+            <display value="Referral by rehabilitation psychiatrist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306100008" />
+            <display value="Referral by relative" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306726005" />
+            <displayvalue="Referral by research nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305961002" />
+            <display value="Referral by respiratory physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306006000" />
+            <display value="Referral by restorative dentist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305984009" />
+            <display value="Referral by rheumatologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306043003" />
+            <display value="Referral by rheumatology nurse specialist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306051000" />
+            <display value="Referral by school nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306097003" />
+            <display value="Referral by school teacher" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306092009" />
+            <display value="Referral by social services department care manager" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306073007" />
+            <display value="Referral by social services department occupational therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <codevalue="306091002" />
+            <display value="Referral by social services department social worker" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306090001" />
+            <display value="Referral by social worker" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306086003" />
+            <display value="Referral by speech and language therapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306044009" />
+            <display value="Referral by stoma nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="305998001" />
+            <display value="Referral by surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306078003" />
+            <display value="Referral by surgical fitter" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306093004" />
+            <display value="Referral by teacher" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306095006" />
+            <display value="Referral by teacher of the deaf" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306096007" />
+            <display value="Referral by teacher of the hearing impaired" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306083006" />
+            <display value="Referral by therapeutic radiographer" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306001005" />
+            <display value="Referral by thoracic surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306023009" />
+            <display value="Referral by transplant surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306024003" />
+            <display value="Referral by trauma surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306011003" />
+            <display value="Referral by upper gastrointestinal surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306025002" />
+            <display value="Referral by urologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306026001" />
+            <display value="Referral by vascular surgeon" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="1066021000000105" />
+            <display value="Referred by advanced care practitioner" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="185359002" />
+            <display value="Referred by another GP" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="200181000000100" />
+            <display value="Referred by cardiologist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="1065391000000104" />
+            <display value="Referred by carer" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="185361006" />
+            <display value="Referred by community doctor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="835221000000101" />
+            <display value="Referred by community matron" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="1077201000000101" />
+            <display value="Referred by community mental health nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="1077191000000103" />
+            <display value="Referred by community nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="312357002" />
+            <display value="Referred by consultant" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="185366001" />
+            <display value="Referred by dentist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="1033551000000109" />
+            <display value="Referred by Diabetes UK roadshow clinician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="309014007" />
+            <display value="Referred by doctor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="185373006" />
+            <display value="Referred by family" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="108161000000109" />
+            <display value="Referred by general practitioner" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="1052681000000105" />
+            <display value="Referred by health visitor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="200171000000102" />
+            <display value="Referred by heart failure nurse specialist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="185360007" />
+            <display value="Referred by hospital doctor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="276491000" />
+            <display value="Referred by member of Primary Health Care Team" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="185363009" />
+            <display value="Referred by midwife" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="185362004" />
+            <display value="Referred by nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="185368000" />
+            <display value="Referred by optician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="185369008" />
+            <display value="Referred by pharmacist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="2051000124106" />
+            <display value="Referred by physician assistant" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="185370009" />
+            <display value="Referred by physiotherapist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="2021000124102" />
+            <display value="Referred by primary care physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="1079521000000104" />
+            <display value="Referred by private sector physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="248121000000109" />
+            <display value="Referred by probationservice worker" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="1065401000000101" />
+            <display value="Referred by school nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="1991000124105" />
+            <display value="Referred by self" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="185365002" />
+            <display value="Referred by social worker" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="2031000124104" />
+            <display value="Referred by specialist physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183700005" />
+            <display value="Rheumatology self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="1107201000000100" />
+            <display value="Self referral for digital cognitive behavioural therapy for insomnia" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="304301000000105" />
+            <display value="Self referral to substance misuse service" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="769411000000104" />
+            <display value="Self referral to termination of pregnancy service" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="306098008" />
+            <display value="Self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="507291000000100" />
+            <display value="Self-referral to accident and emergency department" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183687002" />
+            <display value="Self-referral to hospital" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <codevalue="1036481000000106" />
+            <display value="Self-referral to IAPT (Improving Access to Psychological Therapies) programme" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="198151000000108" />
+            <display value="Self-referral to minor injuries clinic" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="310434002" />
+            <display value="Self-referral to service" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="266752005" />
+            <display value="Trauma self-referral" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" /><code value="183703007" />
+            <display value="Urology self-referral" />
+        </contains>
+    </expansion>
 </ValueSet>

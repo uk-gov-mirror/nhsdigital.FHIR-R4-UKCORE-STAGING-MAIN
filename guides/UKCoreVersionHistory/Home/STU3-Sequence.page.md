@@ -22,6 +22,8 @@ topic: STU3Sequence
 <br>
 <b>General IG improvements:</b><br>
 <ul>
+<li>Retired <code>ValueSet-UKCore-AllergyManifestation</code> and removed the usage of this ValueSet in <code>UKCore-AllergyIntolerance</code>.</li>
+<li>Removed references of 'Invasive blood pressure' from <code>ValueSet-UKCore-BloodPressure</code> and <code>ValueSet-UKCore-ObservationVitalSignsType</code>.</li>
 <li>Added guidance on use of SNOMED CT UK Edition to Terminology Index page
 <li>Changed all VitalSigns derived profiles baseDefinitions to reference HL7 Internal profiles. This ensures international conformance as per <a href="https://build.fhir.org/observation.html#core">10.1.1.1 Core Profiles for Observation</a>.
 <li>Removed IG pages and references to retired and deleted R5 backport Extensions.</li>

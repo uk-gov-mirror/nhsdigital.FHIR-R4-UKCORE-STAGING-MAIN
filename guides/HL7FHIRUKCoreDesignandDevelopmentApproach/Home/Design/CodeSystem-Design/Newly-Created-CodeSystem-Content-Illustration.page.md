@@ -10,21 +10,21 @@
 
 <div id="HTML View" class="tabcontent">
   <h3>HTML View</h3>
-{{render:https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationPrescribingOrganization}}
+{{render:https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationPrescribingOrganizationType}}
 </div>
 
 <div id="Table View" class="tabcontent">
   <h3>Table View</h3>
-{{table:https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationPrescribingOrganization}}
+{{table:https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationPrescribingOrganizationType}}
 </div>
 
 <div id="XML View" class="tabcontent" style="display:block">
   <h3>XML View</h3>
-{{xml:https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationPrescribingOrganization}}
+{{xml:https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationPrescribingOrganizationType}}
 </div>
 
 <div id="JSON View" class="tabcontent">
   <h3>JSON View</h3>
-{{json:https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationPrescribingOrganization}}
+{{json:https://fhir.hl7.org.uk/CodeSystem/UKCore-MedicationPrescribingOrganizationType}}
 </div>
 </nocheck>

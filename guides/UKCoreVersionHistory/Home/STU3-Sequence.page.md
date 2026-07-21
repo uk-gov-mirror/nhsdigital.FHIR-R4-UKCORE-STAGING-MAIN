@@ -22,6 +22,7 @@ topic: STU3Sequence
 <br>
 <b>General IG improvements:</b><br>
 <ul>
+<li>Updated <code>Extension-UKCore-NHSNumberVerificationStatus</code> to include "identifier" in context. This allows the nhs number verification to be used on all resources rather than just the Patient resource. Helpful when a patient resource is not sent, but the sender wants to show that the NHS number was checked and verified, e.g. when sending a ServiceRequest. This realtes to the <a href="https://digital.nhs.uk/data-and-information/information-standards/governance/latest-activity/standards-and-collections/isb-0149-nhs-number">ISB 0149 NHS Number</a> standard.
 <li>Retired <code>ValueSet-UKCore-AllergyManifestation</code> and removed the usage of this ValueSet in <code>UKCore-AllergyIntolerance</code>.</li>
 <li>Removed references of 'Invasive blood pressure' from <code>ValueSet-UKCore-BloodPressure</code> and <code>ValueSet-UKCore-ObservationVitalSignsType</code>.</li>
 <li>Added guidance on use of SNOMED CT UK Edition to Terminology Index page

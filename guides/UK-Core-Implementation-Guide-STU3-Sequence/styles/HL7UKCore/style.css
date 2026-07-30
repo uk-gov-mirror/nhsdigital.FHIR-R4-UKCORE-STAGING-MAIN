@@ -11,7 +11,7 @@ html, body {
 }
  body header .title {
      font-size: 24px;
-     font-weight: 700;
+     font-weight: 800;
      padding-top: 23px;
 }
  body header .title a {
@@ -21,18 +21,41 @@ html, body {
  body header h3 {
      text-align: center;
 }
- body header .hl7-fhir-logo-lhs {
-     text-align: left;
-     margin-top: 7px;
-     margin-bottom: 5px;
+
+
+#header.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
- body header .hl7-logo {
-     text-align: right;
-     float: left;
+
+#header {
+    display: flex;
+    align-items: center;
+}
+
+#header .fhir-logo,
+#header .hl7-logo {
+    width: 180px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.fhir-logo img,
+.hl7-logo img {
+    margin-top: 15px;
+}
+
+#header .col-md-12,
+#header .col-md-16 {
+    flex: 1;
+    text-align: center;
+}
+
 }
  body header .guide-title {
-    font-size: 18px;
     margin-top: 18px;
+
 }
  body .content {
      overflow: hidden;
@@ -648,8 +671,8 @@ h2 code {
 
 
 .container, .container-fluid {
-    padding-left: 10% !important; 
-    padding-right: 10% !important; 
+    padding-left: 15% !important; 
+    padding-right: 15% !important; 
     width: 100%
 }
 
